@@ -17,6 +17,10 @@ Aprendizado de maquina
       - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
       - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
     - [2.2.2. Classificação](#222-classificação)
+      - [2.2.2.1. Random Forest](#2221-random-forest)
+      - [2.2.2.2. Árvore de decisão](#2222-árvore-de-decisão)
+      - [2.2.2.3. Logistic Regression](#2223-logistic-regression)
+      - [2.2.2.4. SVM (support vector machines)](#2224-svm-support-vector-machines)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
 - [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
 - [Referências](#referências)
@@ -134,6 +138,18 @@ Aqui estão **alguns** algoritmos para:
 
 
 ### 2.2.2. Classificação
+
+Na classificação algoritmos são usados quando uma variável é categórica (que pode ser usada em agrupamentos, como exemplo de variáveis categóricas temos: raça, sexo, grupo de idade, nacionalidade, etc). 
+
+Aqui estão **alguns** algoritmos dest tipo:
+
+#### 2.2.2.1. Random Forest
+
+#### 2.2.2.2. Árvore de decisão
+
+#### 2.2.2.3. Logistic Regression
+
+#### 2.2.2.4. SVM (support vector machines)
 
 
 
