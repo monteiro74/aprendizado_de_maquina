@@ -62,7 +62,6 @@ As sub etapas são:
 
 * Importar o dataset
 * Encontrar dados ausentes
-* Codificar dados de categorização
 * Dividir o dataset em treinamento e teste
   
 
