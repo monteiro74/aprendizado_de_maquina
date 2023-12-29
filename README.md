@@ -8,8 +8,13 @@ Aprendizado de maquina
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
+  - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
+  - [2.2. Tipos de aprendizado supervisionado](#22-tipos-de-aprendizado-supervisionado)
+    - [2.2.1. Regressão](#221-regressão)
+    - [2.2.2. Classificação](#222-classificação)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
 - [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
+- [Referências](#referências)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
   - [Aviso](#aviso)
   - [Licença](#licença)
@@ -84,7 +89,33 @@ ds = pd.read_csv('dataset.csv')
 ---
 # 2. Aprendizado de máquina supervisionado
 
+Neste tipo de aprendizagem a máquina é treinada usando dados com "rótulos", e a partir destes dados tenta realizar uma predição de saída do processamento. Esses rótulos são descritores, nomes de campos. 
 
+Os modelos são treinados usado dataset com rótulos, onde o modelo aprende com cada tipo de dados que entra no processamento. quando o treinamento finaliza o modelo pode ser testado com dados de teste (que é um sub conjunto dos dados de treinamento) de forma a poder fazer uma predição. 
+
+## 2.1. As etapas envolvidas do aprendizado supervisionado
+
+* Determinar o tipo de dataset para treinamento
+* Coletar os dados com rótulos
+* Dividir o dataset em 3 partes:
+  * dataset de treinamento
+  * datset de teste
+  * dataset de validação
+* Determinar o algoritmo para o modelo
+* Executar o algoritmo no dataset de treinamento
+* Executar o algoritmo no dataset de teste
+* Executar o algoritmo no dataset de validação
+
+## 2.2. Tipos de aprendizado supervisionado
+
+Estes podem ser divididos em 2 subtipos:
+
+### 2.2.1. Regressão
+
+Aqui estão os algoritmos para:
+
+
+### 2.2.2. Classificação
 
 ---
 # 3. Aprendizado de máquina não supervisionado
@@ -92,6 +123,11 @@ ds = pd.read_csv('dataset.csv')
 
 ---
 # 4. Aprendizagem por reforço
+
+
+---
+# Referências
+
 
 ---
 # Avisos, licença, observações, estatísticas
