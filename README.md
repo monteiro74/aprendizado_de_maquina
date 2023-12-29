@@ -11,6 +11,11 @@ Aprendizado de maquina
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de aprendizado supervisionado](#22-tipos-de-aprendizado-supervisionado)
     - [2.2.1. Regressão](#221-regressão)
+      - [2.2.1.1. Regressão Linear](#2211-regressão-linear)
+      - [2.2.1.2. Árvore de regressão](#2212-árvore-de-regressão)
+      - [2.2.1.3. Regressão não-linear](#2213-regressão-não-linear)
+      - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
+      - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
     - [2.2.2. Classificação](#222-classificação)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
 - [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
@@ -112,7 +117,20 @@ Estes podem ser divididos em 2 subtipos:
 
 ### 2.2.1. Regressão
 
-Aqui estão os algoritmos para:
+São utilizados quando existe alguma combinação, concodância ou relação entre os dados de entrada e de saída. São bastante utilizados para predizer variáveis contínuas (como por exemplo na previsão do tempo/clima). 
+
+Aqui estão alguns algoritmos para:
+
+#### 2.2.1.1. Regressão Linear
+
+#### 2.2.1.2. Árvore de regressão
+
+#### 2.2.1.3. Regressão não-linear
+
+#### 2.2.1.4. Regressão linear bayesiana
+
+#### 2.2.1.5. Regressão polinomial
+
 
 
 ### 2.2.2. Classificação
