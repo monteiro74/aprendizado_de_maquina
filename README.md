@@ -2,10 +2,6 @@
 Aprendizado de maquina
 
 
----
-# 1. Definições
-
-
 
 - [Aprendizado de maquina](#aprendizado-de-maquina)
 - [1. Definições](#1-definições)
@@ -16,9 +12,12 @@ Aprendizado de maquina
   - [Estatísticas](#estatísticas)
 
 
+---
+# 1. Definições
 
+Aprendizado de máquina é uma área dentro da inteligência artificial. A primeira pessoa a cunhar o termo "machine learning" foi Arthur Samuel[^1] em 1959. O aprendizado de máquina construoi modelos de predição, aprendendo através de dados preexistente e prediz a saída de novos dados. A quantidade de entrada usada como entrada esta relacionado com a acurácia da predição de saída do modelo.
 
-
+[^1]: Samuel, A. L. (1959). [Some studies in machine learning using the game of checkers](https://www.semanticscholar.org/paper/Some-Studies-in-Machine-Learning-Using-the-Game-of-Samuel/e9e6bb5f2a04ae30d8ecc9287f8b702eedd7b772?p2df). IBM Journal of research and development, 3(3), 210-229.
 
 
 
