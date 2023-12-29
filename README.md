@@ -47,11 +47,11 @@ O aprendizado de máquina esta dividido em 3 grandes áreas:
 | --- | --- |
 |1. Obter dados | Consistem em identificar e obter dados relacionados ao problema. Listar diferentes fontes de dados como: arquivos, bancos de dados, API, etc. Coletar os dados. Juntar os dados em um dataset.
 |2. Preparar dados | Consistem em colocar os dados em um único local que possa ser usado pelos algoritmos. É identificado o formato e a qualidade dos dados. 
-|3. Disputa de dados |  |
-|4. Análise de dados |
-|5. Treinamento do modelo |
-|6. Teste do modelo |
-|7. Implementação |
+|3. Organização de dados | Nesta etapa são realizadas a limpeza e conversão de tipos de dados no formato e tipo final de utilização pela utilização de vários filtros. São identificados dados faltantes, duplicados, inválidos e ruído. Este processo esta relacionado com a qualidade final do que vai ser trabalhado e afeta o resultado final. |
+|4. Análise de dados | Nesta etapa é feita a seleção da técnica de análise onde o algoritmo de aprendizado de máquina é selecionado.|
+|5. Treinamento do modelo | O modelo é treinado via datasets voltados para o treinamento, são observadas padrões, regras, tempo de processamento e saídas.|
+|6. Teste do modelo | Após o treinamento o modelo recebem um dataset de treinamento.  |
+|7. Implementação | O modelo é finalmente testado com dados do mundo real. |
    
 
 
