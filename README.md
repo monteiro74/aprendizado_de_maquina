@@ -1,7 +1,19 @@
-# aprendizado_de_maquina
-aprendizado_de_maquina
+# Aprendizado de maquina
+Aprendizado de maquina
 
 
+---
+# 1. Definições
+
+
+
+- [Aprendizado de maquina](#aprendizado-de-maquina)
+- [1. Definições](#1-definições)
+- [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
+  - [Aviso](#aviso)
+  - [Licença](#licença)
+  - [Observação](#observação)
+  - [Estatísticas](#estatísticas)
 
 
 
