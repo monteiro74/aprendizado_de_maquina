@@ -43,15 +43,17 @@ O aprendizado de máquina esta dividido em 3 grandes áreas:
 
 ## 1.1. Etapas de um projeto de aprendizado de máquina
 
-1. Obter dados
-2. Preparar dados
-3. Disputa de dados
-4. Análise de dados
-5. Treinamento do modelo
-6. Teste do modelo
-7. Implementação
+| Etapa | Descrição |
+| --- | --- |
+|1. Obter dados | Consistem em identificar e obter dados relacionados ao problema. Listar diferentes fontes de dados como: arquivos, bancos de dados, API, etc. Coletar os dados. Juntar os dados em um dataset.
+|2. Preparar dados | Consistem em colocar os dados em um único local que possa ser usado pelos algoritmos. É identificado o formato e a qualidade dos dados. 
+|3. Disputa de dados |  |
+|4. Análise de dados |
+|5. Treinamento do modelo |
+|6. Teste do modelo |
+|7. Implementação |
    
-   
+
 
 ---
 # Avisos, licença, observações, estatísticas
