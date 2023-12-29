@@ -16,6 +16,7 @@ Aprendizado de maquina
       - [2.2.1.3. Regressão não-linear](#2213-regressão-não-linear)
       - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
       - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
+      - [2.2.1.6. Logistic Regression](#2216-logistic-regression)
     - [2.2.2. Classificação](#222-classificação)
       - [2.2.2.1. Árvore de decisão](#2221-árvore-de-decisão)
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
@@ -146,8 +147,13 @@ Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.5. Regressão polinomial
 
+#### 2.2.1.6. Logistic Regression
+
+O algoritmo de regressão logística é uma regressão ou classificação ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
+
+
 ```
-Mais detalhes podem ser encontrados em:
+Mais detalhes sobre outros algoritmos podem ser encontrados em:
 https://www.javatpoint.com/regression-analysis-in-machine-learning
 ```
 
@@ -161,6 +167,8 @@ Aqui estão **alguns** algoritmos dest tipo:
 #### 2.2.2.1. Árvore de decisão 
 
 #### 2.2.2.2. Logistic Regression
+
+O algoritmo de regressão logística é uma regressão ou classificação ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
 #### 2.2.2.3. Random Forest
 
