@@ -7,6 +7,9 @@ Aprendizado de maquina
 - [1. Definições](#1-definições)
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
+- [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
+- [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
+- [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
   - [Aviso](#aviso)
   - [Licença](#licença)
@@ -39,7 +42,7 @@ O aprendizado de máquina esta dividido em 3 grandes áreas:
 2. Unsupervised learning (Aprendizagem não supervisionada)
   2.1. Clustering (agrupamento)
   2.2. Associação
-3. Reinforcement learning (Aprendizagem supervisionada)
+3. Reinforcement learning (Aprendizagem por reforço)
 
 
 ## 1.1. Etapas de um projeto de aprendizado de máquina
@@ -78,6 +81,17 @@ Os dataset (ds) geralmente estão no formato CSV e podem ser lidos com o seguint
 ds = pd.read_csv('dataset.csv')
 ```
 
+---
+# 2. Aprendizado de máquina supervisionado
+
+
+
+---
+# 3. Aprendizado de máquina não supervisionado
+
+
+---
+# 4. Aprendizagem por reforço
 
 ---
 # Avisos, licença, observações, estatísticas
