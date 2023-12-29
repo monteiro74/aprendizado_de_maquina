@@ -9,7 +9,7 @@ Aprendizado de maquina
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
-  - [2.2. Tipos de aprendizado supervisionado](#22-tipos-de-aprendizado-supervisionado)
+  - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
     - [2.2.1. Regressão](#221-regressão)
       - [2.2.1.1. Regressão Linear](#2211-regressão-linear)
       - [2.2.1.2. Árvore de regressão](#2212-árvore-de-regressão)
@@ -20,8 +20,11 @@ Aprendizado de maquina
       - [2.2.2.1. Random Forest](#2221-random-forest)
       - [2.2.2.2. Árvore de decisão](#2222-árvore-de-decisão)
       - [2.2.2.3. Logistic Regression](#2223-logistic-regression)
-      - [2.2.2.4. SVM (support vector machines)](#2224-svm-support-vector-machines)
+      - [2.2.2.4. SVM (Support Vector Machines)](#2224-svm-support-vector-machines)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
+  - [3.1. Tipos de algoritmos de aprendizado não supervisionado](#31-tipos-de-algoritmos-de-aprendizado-não-supervisionado)
+    - [3.1.1. Clustering](#311-clustering)
+    - [3.1.2. Associação](#312-associação)
 - [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
 - [Referências](#referências)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
@@ -115,7 +118,7 @@ Os modelos são treinados usado dataset com rótulos, onde o modelo aprende com 
 * Executar o algoritmo no dataset de teste
 * Executar o algoritmo no dataset de validação
 
-## 2.2. Tipos de aprendizado supervisionado
+## 2.2. Tipos de algoritmos de aprendizado supervisionado
 
 Estes podem ser divididos em 2 subtipos:
 
@@ -149,7 +152,7 @@ Aqui estão **alguns** algoritmos dest tipo:
 
 #### 2.2.2.3. Logistic Regression
 
-#### 2.2.2.4. SVM (support vector machines)
+#### 2.2.2.4. SVM (Support Vector Machines)
 
 
 
@@ -157,9 +160,23 @@ Aqui estão **alguns** algoritmos dest tipo:
 # 3. Aprendizado de máquina não supervisionado
 
 
+No aprendizado de máquina não supervisionado os dataset não tem labels (rótulos).  Neste caso os modelos não são supervisionados durante o treinamento com os datasets. Desta forma os modelos devem eles mesmos achar padrões e tentar descobrrir "labels" nos dados de entrada. O aprendizado de máquina não supervisionado permtie descobrir detalhes do dataset e agrupar os dados de acordo com estes detalhes. 
+
+Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens de pessoas e carros,  e produzir como resultado dois clustes (agrupamentos) contendo as imagens que identificar como mais similares (um grupo de pessoas e outro de carros), os dados de entrada neste caso não tem "labels", após interpretar e processar a saída são dois novos grupos de imagens.
+
+
+## 3.1. Tipos de algoritmos de aprendizado não supervisionado
+
+### 3.1.1. Clustering
+
+### 3.1.2. Associação
 ---
 # 4. Aprendizagem por reforço
 
+
+```
+Seção em desenvolvimento
+```
 
 ---
 # Referências
