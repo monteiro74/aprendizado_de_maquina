@@ -149,7 +149,7 @@ Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.6. Logistic Regression
 
-O algoritmo de regressão logística é uma regressão ou classificação ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
+O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
 
 ```
@@ -168,7 +168,10 @@ Aqui estão **alguns** algoritmos dest tipo:
 
 #### 2.2.2.2. Logistic Regression
 
-O algoritmo de regressão logística é uma regressão ou classificação ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
+É um algoritmo de aprendizado supervisionado. Usado para tarefas de classificação.
+
+
+O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
 #### 2.2.2.3. Random Forest
 
