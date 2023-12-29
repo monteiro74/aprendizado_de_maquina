@@ -11,20 +11,28 @@ Aprendizado de maquina
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
     - [2.2.1. Regressão](#221-regressão)
-      - [2.2.1.1. Regressão Linear](#2211-regressão-linear)
-      - [2.2.1.2. Árvore de regressão](#2212-árvore-de-regressão)
+      - [2.2.1.1. Árvore de regressão](#2211-árvore-de-regressão)
+      - [2.2.1.2. Regressão Linear](#2212-regressão-linear)
       - [2.2.1.3. Regressão não-linear](#2213-regressão-não-linear)
       - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
       - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
     - [2.2.2. Classificação](#222-classificação)
-      - [2.2.2.1. Random Forest](#2221-random-forest)
-      - [2.2.2.2. Árvore de decisão](#2222-árvore-de-decisão)
-      - [2.2.2.3. Logistic Regression](#2223-logistic-regression)
+      - [2.2.2.1. Árvore de decisão](#2221-árvore-de-decisão)
+      - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
+      - [2.2.2.3. Random Forest](#2223-random-forest)
       - [2.2.2.4. SVM (Support Vector Machines)](#2224-svm-support-vector-machines)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
   - [3.1. Tipos de algoritmos de aprendizado não supervisionado](#31-tipos-de-algoritmos-de-aprendizado-não-supervisionado)
     - [3.1.1. Clustering](#311-clustering)
+      - [3.1.1.1. Anomaly detection](#3111-anomaly-detection)
+      - [3.1.1.2. K-means clustering](#3112-k-means-clustering)
+      - [3.1.1.3. Hierarchal clustering](#3113-hierarchal-clustering)
     - [3.1.2. Associação](#312-associação)
+      - [3.1.2.1. Apriori algorithm](#3121-apriori-algorithm)
+      - [3.1.2.2. Association rule](#3122-association-rule)
+      - [3.1.2.3. FP-Growth algorithm](#3123-fp-growth-algorithm)
+      - [3.1.2.3. Principle Component Analysis](#3123-principle-component-analysis)
+      - [3.1.2.4. Singular value decomposition](#3124-singular-value-decomposition)
 - [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
 - [Referências](#referências)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
@@ -128,9 +136,9 @@ São utilizados quando existe alguma combinação, concodância ou relação ent
 
 Aqui estão **alguns** algoritmos para:
 
-#### 2.2.1.1. Regressão Linear
+#### 2.2.1.1. Árvore de regressão
 
-#### 2.2.1.2. Árvore de regressão
+#### 2.2.1.2. Regressão Linear
 
 #### 2.2.1.3. Regressão não-linear
 
@@ -138,6 +146,10 @@ Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.5. Regressão polinomial
 
+```
+Mais detalhes podem ser encontrados em:
+https://www.javatpoint.com/regression-analysis-in-machine-learning
+```
 
 
 ### 2.2.2. Classificação
@@ -146,11 +158,11 @@ Na classificação algoritmos são usados quando uma variável é categórica (q
 
 Aqui estão **alguns** algoritmos dest tipo:
 
-#### 2.2.2.1. Random Forest
+#### 2.2.2.1. Árvore de decisão 
 
-#### 2.2.2.2. Árvore de decisão
+#### 2.2.2.2. Logistic Regression
 
-#### 2.2.2.3. Logistic Regression
+#### 2.2.2.3. Random Forest
 
 #### 2.2.2.4. SVM (Support Vector Machines)
 
@@ -171,11 +183,26 @@ Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens 
 
 É uma forma de agrupamento pela similaridade dos objetos detectados (maior e menor similaridade no outro grupo). Esta técnica detecta semelhanças entre os objetos de dados e organiza em classes (categorias) se estas características estão mais fortes ou fracas nos objetos.
 
+#### 3.1.1.1. Anomaly detection
+
+#### 3.1.1.2. K-means clustering
+
+#### 3.1.1.3. Hierarchal clustering
+
+
 ### 3.1.2. Associação
 
+O objetivo destes algoritmos é detectar as regras de associação entre as variáveis (geralmente em grandes datasets). Estes algoritmos buscas associações frequentes entre os dados, chamadas de regras se-então, descobrindo correlações e ocorrências entre os dados e suas conexções. Um exemplo poderia ser descobrir que quem compra o produto A pode comprar o produto B pela observação do conteúdo de um carrinho de compra.
 
+#### 3.1.2.1. Apriori algorithm
 
+#### 3.1.2.2. Association rule
 
+#### 3.1.2.3. FP-Growth algorithm
+
+#### 3.1.2.3. Principle Component Analysis
+
+#### 3.1.2.4. Singular value decomposition
 
 
 ---
