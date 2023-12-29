@@ -119,7 +119,7 @@ Estes podem ser divididos em 2 subtipos:
 
 São utilizados quando existe alguma combinação, concodância ou relação entre os dados de entrada e de saída. São bastante utilizados para predizer variáveis contínuas (como por exemplo na previsão do tempo/clima). 
 
-Aqui estão alguns algoritmos para:
+Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.1. Regressão Linear
 
@@ -134,6 +134,8 @@ Aqui estão alguns algoritmos para:
 
 
 ### 2.2.2. Classificação
+
+
 
 ---
 # 3. Aprendizado de máquina não supervisionado
