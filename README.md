@@ -33,7 +33,7 @@ Aprendizado de maquina
       - [3.1.2.3. FP-Growth algorithm](#3123-fp-growth-algorithm)
       - [3.1.2.3. Principle Component Analysis](#3123-principle-component-analysis)
       - [3.1.2.4. Singular value decomposition](#3124-singular-value-decomposition)
-- [4. Aprendizagem por reforço](#4-aprendizagem-por-reforço)
+- [4. Aprendizagem por reforço (reinforcement learning, RL)](#4-aprendizagem-por-reforço-reinforcement-learning-rl)
 - [Referências](#referências)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
   - [Aviso](#aviso)
@@ -192,7 +192,7 @@ Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens 
 
 ### 3.1.2. Associação
 
-O objetivo destes algoritmos é detectar as regras de associação entre as variáveis (geralmente em grandes datasets). Estes algoritmos buscas associações frequentes entre os dados, chamadas de regras se-então, descobrindo correlações e ocorrências entre os dados e suas conexções. Um exemplo poderia ser descobrir que quem compra o produto A pode comprar o produto B pela observação do conteúdo de um carrinho de compra.
+O objetivo destes algoritmos é detectar as regras de associação entre as variáveis (geralmente em grandes datasets). Estes algoritmos buscas associações frequentes entre os dados, chamadas de regras se-então, descobrindo correlações e ocorrências entre os dados e suas conexções. Um exemplo poderia ser descobrir que quem compra o produto A pode comprar o produto B pela observação do conteúdo de um carrinho de compra. O resultado é avaliado e é usado para corririr os rumos tomados durante o processamento usando algo como "tentatia e erro" (ou recompensa e penalidade). 
 
 #### 3.1.2.1. Apriori algorithm
 
@@ -206,7 +206,16 @@ O objetivo destes algoritmos é detectar as regras de associação entre as vari
 
 
 ---
-# 4. Aprendizagem por reforço
+# 4. Aprendizagem por reforço (reinforcement learning, RL)
+
+São algoritmos que não entram nenhuma das classificações anteriores. Este tipo de algoritmo requer dados com labels (rótulo) e também classifica os dados de entrada. 
+
+
+Tipos de algoritmos de [RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html). Estes podem ser vistos na figura abaixo:
+
+![https://spinningup.openai.com/en/latest/_images/rl_algorithms_9_15.svg](https://spinningup.openai.com/en/latest/_images/rl_algorithms_9_15.svg)
+
+Fonte da figura: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html
 
 
 ```
