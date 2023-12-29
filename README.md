@@ -5,6 +5,7 @@ Aprendizado de maquina
 
 - [Aprendizado de maquina](#aprendizado-de-maquina)
 - [1. Definições](#1-definições)
+  - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
   - [Aviso](#aviso)
   - [Licença](#licença)
@@ -22,12 +23,35 @@ Aprendizado de máquina é uma área dentro da inteligência artificial. A prime
 
 ```mermaid
 graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+A[Dados históricos] --> B[Algoritmo]
+B[Algoritmo] --> C[Modelo lógico]
+D[Novos dados] --> C[Saída]
+C[Modelo lógico] --> E[Saída]
+
 ```
 
+O aprendizado de máquina esta dividido em 3 grandes áreas:
+
+1.  Supervised learning (Aprendizagem por reforço)
+   1.1. Classificação
+   1.2. Regressão
+2. Unsupervised learning (Aprendizagem não supervisionada)
+  2.1. Clustering (agrupamento)
+  2.2. Associação
+3. Reinforcement learning (Aprendizagem supervisionada)
+
+
+## 1.1. Etapas de um projeto de aprendizado de máquina
+
+1. Obter dados
+2. Preparar dados
+3. Disputa de dados
+4. Análise de dados
+5. Treinamento do modelo
+6. Teste do modelo
+7. Implementação
+   
+   
 
 ---
 # Avisos, licença, observações, estatísticas
