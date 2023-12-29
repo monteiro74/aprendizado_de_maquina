@@ -169,7 +169,15 @@ Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens 
 
 ### 3.1.1. Clustering
 
+É uma forma de agrupamento pela similaridade dos objetos detectados (maior e menor similaridade no outro grupo). Esta técnica detecta semelhanças entre os objetos de dados e organiza em classes (categorias) se estas características estão mais fortes ou fracas nos objetos.
+
 ### 3.1.2. Associação
+
+
+
+
+
+
 ---
 # 4. Aprendizagem por reforço
 
