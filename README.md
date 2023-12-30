@@ -188,6 +188,7 @@ Aqui estão **alguns** algoritmos para:
 
 É um algoritmo usado para resolver regressão e classificação. o algoritmo utiliza um modelo de árvore para realizar as predições de valores (regressão) ou predizer classes (classificações). 
 
+Exemplo em python:
 
 ```python
 # -*- coding: utf-8 -*-
@@ -285,6 +286,8 @@ Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regr
 
 #### 2.2.1.2. Regressão Linear
 
+Exemplo em python:
+
 ```python
 # -*- coding: utf-8 -*-
 # declarações/atribuições
@@ -315,6 +318,8 @@ plt1.show()
 #### 2.2.1.4. Regressão linear bayesiana
 
 #### 2.2.1.5. Regressão polinomial
+
+Exemplo em python:
 
 ```python
 # -*- coding: utf-8 -*-
