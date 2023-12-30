@@ -270,6 +270,24 @@ plt1.show()
 
 #### 2.2.1.5. Regressão polinomial
 
+```python
+# -*- coding: utf-8 -*-
+# declarações/atribuições
+import numpy
+import matplotlib.pyplot as plt1
+
+hora = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]             
+velocidade  = [90,93,65,65,63,65,67,71,72,71,78,67,70,80,80,64,78,75,90,100]
+       
+modelo1 = numpy.poly1d(numpy.polyfit(hora, velocidade, 3))
+linha1 = numpy.linspace(1, 22, 100)
+
+# em seguida realizamos as operações
+plt1.scatter(hora, velocidade)
+plt1.plot(linha1, modelo1(linha1))
+plt1.show()
+```
+
 #### 2.2.1.6. Logistic Regression
 
 O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
