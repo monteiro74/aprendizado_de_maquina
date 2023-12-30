@@ -15,9 +15,10 @@ Aprendizado de maquina
     - [2.2.1. Regressão](#221-regressão)
       - [2.2.1.1. Árvore de regressão](#2211-árvore-de-regressão)
       - [2.2.1.2. Regressão Linear](#2212-regressão-linear)
-      - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
-      - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
-      - [2.2.1.6. Logistic Regression](#2216-logistic-regression)
+      - [2.2.1.3. Regressão linear bayesiana](#2213-regressão-linear-bayesiana)
+      - [2.2.1.4. Regressão polinomial](#2214-regressão-polinomial)
+      - [2.2.1.5. Logistic Regression](#2215-logistic-regression)
+      - [2.2.1.6 Support Vector Regression (SVR)](#2216-support-vector-regression-svr)
       - [2.2.1.7. Back propagation neural network classification](#2217-back-propagation-neural-network-classification)
       - [2.2.1.8. Ordinary Least Squares Regression (OLSR)](#2218-ordinary-least-squares-regression-olsr)
       - [2.2.1.9. Multivariate Adaptive Regression Splines (MARS)](#2219-multivariate-adaptive-regression-splines-mars)
@@ -312,9 +313,9 @@ plt1.plot(velocidade, modelo1)
 plt1.show()
 ```
 
-#### 2.2.1.4. Regressão linear bayesiana
+#### 2.2.1.3. Regressão linear bayesiana
 
-#### 2.2.1.5. Regressão polinomial
+#### 2.2.1.4. Regressão polinomial
 
 Exemplo em python:
 
@@ -336,7 +337,7 @@ plt1.plot(linha1, modelo1(linha1))
 plt1.show()
 ```
 
-#### 2.2.1.6. Logistic Regression
+#### 2.2.1.5. Logistic Regression
 
 O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
@@ -345,6 +346,8 @@ O algoritmo de **regressão logística** é uma **regressão** ou **classificaç
 Mais detalhes sobre outros algoritmos podem ser encontrados em:
 https://www.javatpoint.com/regression-analysis-in-machine-learning
 ```
+
+#### 2.2.1.6 Support Vector Regression (SVR)
 
 #### 2.2.1.7. Back propagation neural network classification
 
