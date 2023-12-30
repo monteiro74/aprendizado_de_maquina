@@ -139,6 +139,8 @@ Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.1. Árvore de regressão
 
+Adaptando o exemplo de: 
+
 #### 2.2.1.2. Regressão Linear
 
 #### 2.2.1.3. Regressão não-linear
