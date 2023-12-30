@@ -22,6 +22,9 @@ Aprendizado de maquina
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
       - [2.2.2.3. Random Forest](#2223-random-forest)
       - [2.2.2.4. SVM (Support Vector Machines)](#2224-svm-support-vector-machines)
+      - [2.2.2.5. Naive Bayes](#2225-naive-bayes)
+      - [2.2.2.6. k-nearest neighbors](#2226-k-nearest-neighbors)
+      - [2.2.2.7. Similarity learning](#2227-similarity-learning)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
   - [3.1. Tipos de algoritmos de aprendizado não supervisionado](#31-tipos-de-algoritmos-de-aprendizado-não-supervisionado)
     - [3.1.1. Clustering](#311-clustering)
@@ -317,6 +320,13 @@ O algoritmo de **regressão logística** é uma **regressão** ou **classificaç
 
 #### 2.2.2.4. SVM (Support Vector Machines)
 
+#### 2.2.2.5. Naive Bayes
+
+#### 2.2.2.6. k-nearest neighbors
+
+#### 2.2.2.7. Similarity learning
+
+**Observação:** este algoritmo pode ser usado na regressão e classificação.
 
 
 ---
