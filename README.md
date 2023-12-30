@@ -154,7 +154,7 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | 25 | Não Supervisionado | Associação | Principle component analysis
 | 26 | Não Supervisionado | Associação | Singular value decomposition | |
 
-
+[Volta ao início](#aprendizado-de-maquina)
 
 ---
 # 2. Aprendizado de máquina supervisionado
@@ -179,6 +179,8 @@ Os modelos são treinados usado dataset com rótulos, onde o modelo aprende com 
 ## 2.2. Tipos de algoritmos de aprendizado supervisionado
 
 Estes podem ser divididos em 2 subtipos:
+
+[Volta ao início](#aprendizado-de-maquina)
 
 ### 2.2.1. Regressão
 
@@ -286,6 +288,7 @@ plt.show()
 Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
 ````
 
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.1.2. Regressão Linear
 
@@ -316,7 +319,11 @@ plt1.plot(velocidade, modelo1)
 plt1.show()
 ```
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.1.3. Regressão linear bayesiana
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.1.4. Regressão polinomial
 
@@ -340,6 +347,8 @@ plt1.plot(linha1, modelo1(linha1))
 plt1.show()
 ```
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.1.5. Logistic Regression
 
 O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
@@ -350,18 +359,29 @@ Mais detalhes sobre outros algoritmos podem ser encontrados em:
 https://www.javatpoint.com/regression-analysis-in-machine-learning
 ```
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.1.6. Support Vector Regression (SVR)
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.1.7. Back propagation neural network classification
 
 Este algoritmo pode ser usado tanto para classificação como regressão.
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.1.8. Ordinary Least Squares Regression (OLSR)
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.1.9. Multivariate Adaptive Regression Splines (MARS)
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.1.10. Locally Estimated Scatterplot Smoothing (LOESS)
 
+[Volta ao início](#aprendizado-de-maquina)
 
 
 ### 2.2.2. Classificação
@@ -370,7 +390,11 @@ Na classificação algoritmos são usados quando uma variável é categórica (q
 
 Aqui estão **alguns** algoritmos dest tipo:
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.2.1. Árvore de decisão 
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.2.2. Logistic Regression
 
@@ -378,21 +402,34 @@ Aqui estão **alguns** algoritmos dest tipo:
 
 O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.2.3. Random Forest
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.2.4. SVM (Support Vector Machines)
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.2.5. Naive Bayes
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.2.6. K-Nearest Neighbors (KNN)
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.2.7. Similarity learning
+
 
 **Observação:** este algoritmo pode ser usado na regressão e classificação.
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 2.2.2.8. Gradient Boosting
 
-
+[Volta ao início](#aprendizado-de-maquina)
 
 
 ---
@@ -404,32 +441,54 @@ No aprendizado de máquina não supervisionado os dataset não tem labels (rótu
 Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens de pessoas e carros,  e produzir como resultado dois clustes (agrupamentos) contendo as imagens que identificar como mais similares (um grupo de pessoas e outro de carros), os dados de entrada neste caso não tem "labels", após interpretar e processar a saída são dois novos grupos de imagens.
 
 
+[Volta ao início](#aprendizado-de-maquina)
+
 ## 3.1. Tipos de algoritmos de aprendizado não supervisionado
 
 ### 3.1.1. Clustering
 
 É uma forma de agrupamento pela similaridade dos objetos detectados (maior e menor similaridade no outro grupo). Esta técnica detecta semelhanças entre os objetos de dados e organiza em classes (categorias) se estas características estão mais fortes ou fracas nos objetos.
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 3.1.1.1. Anomaly detection
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 3.1.1.2. K-Means clustering
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 3.1.1.3. Hierarchical clustering
+
+[Volta ao início](#aprendizado-de-maquina)
 
 
 ### 3.1.2. Associação
 
 O objetivo destes algoritmos é detectar as regras de associação entre as variáveis (geralmente em grandes datasets). Estes algoritmos buscas associações frequentes entre os dados, chamadas de regras se-então, descobrindo correlações e ocorrências entre os dados e suas conexções. Um exemplo poderia ser descobrir que quem compra o produto A pode comprar o produto B pela observação do conteúdo de um carrinho de compra. 
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 3.1.2.1. Apriori algorithm
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 3.1.2.2. Association rule
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 3.1.2.3. FP-Growth algorithm
+
+[Volta ao início](#aprendizado-de-maquina)
 
 #### 3.1.2.3. Principle Component Analysis
 
+[Volta ao início](#aprendizado-de-maquina)
+
 #### 3.1.2.4. Singular value decomposition
+
+[Volta ao início](#aprendizado-de-maquina)
 
 
 ---
@@ -464,6 +523,7 @@ Fonte da figura: https://spinningup.openai.com/en/latest/spinningup/rl_intro2.ht
 ```
 Seção em desenvolvimento
 ```
+[Volta ao início](#aprendizado-de-maquina)
 
 ---
 # Referências
@@ -472,6 +532,8 @@ Lista de algoritmos
 https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/
 
 
+
+[Volta ao início](#aprendizado-de-maquina)
 
 ---
 # Avisos, licença, observações, estatísticas
