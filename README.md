@@ -15,7 +15,6 @@ Aprendizado de maquina
     - [2.2.1. Regressão](#221-regressão)
       - [2.2.1.1. Árvore de regressão](#2211-árvore-de-regressão)
       - [2.2.1.2. Regressão Linear](#2212-regressão-linear)
-      - [2.2.1.3. Regressão não-linear](#2213-regressão-não-linear)
       - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
       - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
       - [2.2.1.6. Logistic Regression](#2216-logistic-regression)
@@ -312,8 +311,6 @@ plt1.scatter(velocidade, idade)
 plt1.plot(velocidade, modelo1)
 plt1.show()
 ```
-
-#### 2.2.1.3. Regressão não-linear
 
 #### 2.2.1.4. Regressão linear bayesiana
 
