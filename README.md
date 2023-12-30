@@ -18,7 +18,7 @@ Aprendizado de maquina
       - [2.2.1.3. Regressão linear bayesiana](#2213-regressão-linear-bayesiana)
       - [2.2.1.4. Regressão polinomial](#2214-regressão-polinomial)
       - [2.2.1.5. Logistic Regression](#2215-logistic-regression)
-      - [2.2.1.6 Support Vector Regression (SVR)](#2216-support-vector-regression-svr)
+      - [2.2.1.6. Support Vector Regression (SVR)](#2216-support-vector-regression-svr)
       - [2.2.1.7. Back propagation neural network classification](#2217-back-propagation-neural-network-classification)
       - [2.2.1.8. Ordinary Least Squares Regression (OLSR)](#2218-ordinary-least-squares-regression-olsr)
       - [2.2.1.9. Multivariate Adaptive Regression Splines (MARS)](#2219-multivariate-adaptive-regression-splines-mars)
@@ -126,10 +126,10 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | --- | ---  | ---     | ---  | ---        |
 | 1 | Supervisionado | Regressão | Regression Trees | |
 | 2 | Supervisionado | Regressão | Regressão linear | |
-| 3 | Supervisionado | Regressão | Regressão Não-linear | |
-| 4 | Supervisionado | Regressão | Bayesian regression | |
-| 5 | Supervisionado | Regressão | Regressão polinomial | |
-| 6 | Supervisionado | Regressão | Regressão logística | |
+| 3 | Supervisionado | Regressão | Bayesian regression | |
+| 4 | Supervisionado | Regressão | Regressão polinomial | |
+| 5 | Supervisionado | Regressão | Regressão logística | |
+| 6 | supervisionado | Regressão | Support Vector Regression (SVR) | |
 | 7 | Supervisionado | Regressão | Back propagation neural network classification | |
 | 8 | Supervisionado | Regressão | Ordinary Least Squares Regression (OLSR) | |
 | 9 | Supervisionado | Regressão | Multivariate Adaptive Regression Splines (MARS) | |
@@ -347,7 +347,7 @@ Mais detalhes sobre outros algoritmos podem ser encontrados em:
 https://www.javatpoint.com/regression-analysis-in-machine-learning
 ```
 
-#### 2.2.1.6 Support Vector Regression (SVR)
+#### 2.2.1.6. Support Vector Regression (SVR)
 
 #### 2.2.1.7. Back propagation neural network classification
 
