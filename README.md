@@ -422,6 +422,10 @@ Seção em desenvolvimento
 ---
 # Referências
 
+Lista de algoritmos 
+https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/
+
+
 
 ---
 # Avisos, licença, observações, estatísticas
