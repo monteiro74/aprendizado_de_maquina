@@ -17,7 +17,10 @@ Aprendizado de maquina
       - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
       - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
       - [2.2.1.6. Logistic Regression](#2216-logistic-regression)
-      - [2.2.1.7. back propagation neural network classification](#2217-back-propagation-neural-network-classification)
+      - [2.2.1.7. Back propagation neural network classification](#2217-back-propagation-neural-network-classification)
+      - [2.2.1.8. Ordinary Least Squares Regression (OLSR)](#2218-ordinary-least-squares-regression-olsr)
+      - [2.2.1.9. Multivariate Adaptive Regression Splines (MARS)](#2219-multivariate-adaptive-regression-splines-mars)
+      - [2.2.1.10. Locally Estimated Scatterplot Smoothing (LOESS)](#22110-locally-estimated-scatterplot-smoothing-loess)
     - [2.2.2. Classificação](#222-classificação)
       - [2.2.2.1. Árvore de decisão](#2221-árvore-de-decisão)
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
@@ -303,9 +306,16 @@ Mais detalhes sobre outros algoritmos podem ser encontrados em:
 https://www.javatpoint.com/regression-analysis-in-machine-learning
 ```
 
-#### 2.2.1.7. back propagation neural network classification
+#### 2.2.1.7. Back propagation neural network classification
 
 Este algoritmo pode ser usado tanto para classificação como regressão.
+
+#### 2.2.1.8. Ordinary Least Squares Regression (OLSR)
+
+#### 2.2.1.9. Multivariate Adaptive Regression Splines (MARS)
+
+#### 2.2.1.10. Locally Estimated Scatterplot Smoothing (LOESS)
+
 
 
 ### 2.2.2. Classificação
