@@ -17,6 +17,7 @@ Aprendizado de maquina
       - [2.2.1.4. Regressão linear bayesiana](#2214-regressão-linear-bayesiana)
       - [2.2.1.5. Regressão polinomial](#2215-regressão-polinomial)
       - [2.2.1.6. Logistic Regression](#2216-logistic-regression)
+      - [2.2.1.7. back propagation neural network classification](#2217-back-propagation-neural-network-classification)
     - [2.2.2. Classificação](#222-classificação)
       - [2.2.2.1. Árvore de decisão](#2221-árvore-de-decisão)
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
@@ -25,6 +26,7 @@ Aprendizado de maquina
       - [2.2.2.5. Naive Bayes](#2225-naive-bayes)
       - [2.2.2.6. k-nearest neighbors](#2226-k-nearest-neighbors)
       - [2.2.2.7. Similarity learning](#2227-similarity-learning)
+      - [2.2.2.8. Gradient Boosting](#2228-gradient-boosting)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
   - [3.1. Tipos de algoritmos de aprendizado não supervisionado](#31-tipos-de-algoritmos-de-aprendizado-não-supervisionado)
     - [3.1.1. Clustering](#311-clustering)
@@ -301,6 +303,10 @@ Mais detalhes sobre outros algoritmos podem ser encontrados em:
 https://www.javatpoint.com/regression-analysis-in-machine-learning
 ```
 
+#### 2.2.1.7. back propagation neural network classification
+
+Este algoritmo pode ser usado tanto para classificação como regressão.
+
 
 ### 2.2.2. Classificação
 
@@ -327,6 +333,10 @@ O algoritmo de **regressão logística** é uma **regressão** ou **classificaç
 #### 2.2.2.7. Similarity learning
 
 **Observação:** este algoritmo pode ser usado na regressão e classificação.
+
+#### 2.2.2.8. Gradient Boosting
+
+
 
 
 ---
