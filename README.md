@@ -1,6 +1,7 @@
 # Aprendizado de maquina
 Aprendizado de maquina
 
+
 ```
 Objetivos: Pequenos exemplos para uso da linguagem python em sala de aula.
 Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio
@@ -21,10 +22,11 @@ de software além de python, consulte a lista de ferramentas:
 https://github.com/monteiro74/lista_de_ferramentas
 ```
 
-##Sumário
+## Sumário
 
 
 - [Aprendizado de maquina](#aprendizado-de-maquina)
+  - [Sumário](#sumário)
 - [1. Definições](#1-definições)
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
