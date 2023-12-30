@@ -7,6 +7,7 @@ Aprendizado de maquina
 - [1. Definições](#1-definições)
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
+  - [1.2.  O aprendizado de máquina esta dividido em 3 grandes áreas:](#12--o-aprendizado-de-máquina-esta-dividido-em-3-grandes-áreas)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
@@ -68,15 +69,6 @@ C[Modelo lógico] --> E[Saída]
 
 ```
 
-O aprendizado de máquina esta dividido em 3 grandes áreas:
-
-1.  Supervised learning (Aprendizagem por reforço)
-   1.1. Classificação
-   1.2. Regressão
-2. Unsupervised learning (Aprendizagem não supervisionada)
-  2.1. Clustering (agrupamento)
-  2.2. Associação
-3. Reinforcement learning (Aprendizagem por reforço)
 
 
 ## 1.1. Etapas de um projeto de aprendizado de máquina
@@ -114,6 +106,29 @@ Os dataset (ds) geralmente estão no formato CSV e podem ser lidos com o seguint
 ```python
 ds = pd.read_csv('dataset.csv')
 ```
+
+## 1.2.  O aprendizado de máquina esta dividido em 3 grandes áreas:
+
+1.  Supervised learning (Aprendizagem por reforço)
+   1.1. Classificação
+   1.2. Regressão
+2. Unsupervised learning (Aprendizagem não supervisionada)
+  2.1. Clustering (agrupamento)
+  2.2. Associação
+3. Reinforcement learning (Aprendizagem por reforço)
+
+Alguns algoritmos citados neste texto, relacionados abaixo:
+
+| Tipo | Subtipo | Algoritmo | Observacao |
+| ---  | ---     | ---  | ---        |
+| Supervisionado | Regressão | Regression Trees | |
+| Supervisionado | Regressão | Regressão linear | |
+| Supervisionado | Regressão | Regressão Não-linear | |
+| Supervisionado | Regressão | Bayesian regression | |
+| Supervisionado | Regressão | Regressão polinomial | |
+| Supervisionado | Regressão | Regressão logística | |
+
+
 
 ---
 # 2. Aprendizado de máquina supervisionado
