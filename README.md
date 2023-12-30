@@ -139,7 +139,9 @@ Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.1. Árvore de regressão
 
-Adaptando o exemplo de: 
+
+
+Adaptando o exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
 
 #### 2.2.1.2. Regressão Linear
 
@@ -171,7 +173,6 @@ Aqui estão **alguns** algoritmos dest tipo:
 #### 2.2.2.2. Logistic Regression
 
 É um algoritmo de aprendizado supervisionado. Usado para tarefas de classificação.
-
 
 O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
