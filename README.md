@@ -140,8 +140,13 @@ Aqui estão **alguns** algoritmos para:
 #### 2.2.1.1. Árvore de regressão
 
 
+É um algoritmo usado para resolver regressão e classificação. o algoritmo utiliza um modelo de árvore para realizar as predições de valores (regressão) ou predizer classes (classificações). 
 
-Adaptando o exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
+
+````
+Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
+````
+
 
 #### 2.2.1.2. Regressão Linear
 
