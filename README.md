@@ -122,34 +122,34 @@ ds = pd.read_csv('dataset.csv')
 
 Alguns algoritmos citados neste texto estão categorizados abaixo:
 
-| Tipo | Subtipo | Algoritmo | Observacao |
-| ---  | ---     | ---  | ---        |
-| Supervisionado | Regressão | Regression Trees | |
-| Supervisionado | Regressão | Regressão linear | |
-| Supervisionado | Regressão | Regressão Não-linear | |
-| Supervisionado | Regressão | Bayesian regression | |
-| Supervisionado | Regressão | Regressão polinomial | |
-| Supervisionado | Regressão | Regressão logística | |
-| Supervisionado | Regressão | Back propagation neural network classification | |
-| Supervisionado | Regressão | Ordinary Least Squares Regression (OLSR) | |
-| Supervisionado | Regressão | Multivariate Adaptive Regression Splines (MARS) | |
-| Supervisionado | Regressão | Locally Estimated Scatterplot Smoothing (LOESS) | |
-| Supervisionado | Classificação | Decision tree | |
-| Supervisionado | Classificação | Logistic regression | |
-| Supervisionado | Classificação | Randon forest | |
-| Supervisionado | Classificação | SVM | |
-| Supervisionado | Classificação | Naive Bayes | |
-| Supervisionado | Classificação | KNN | |
-| Supervisionado | Classificação | Similarity learning | |
-| Supervisionado | Classificação | Gradient boosting | |
-| Não Supervisionado | Clustering | Anomaly detection | |
-| Não Supervisionado | Clustering | K-means | |
-| Não Supervisionado | Clustering | Hierarchical clustering | |
-| Não Supervisionado | Associação | Apriori | |
-| Não Supervisionado | Associação | Association rule | |
-| Não Supervisionado | Associação | FP-Growth | |
-| Não Supervisionado | Associação | Principle component analysis
-| Não Supervisionado | Associação | Singular value decomposition | |
+| ID | Tipo | Subtipo | Algoritmo | Observacao |
+| --- | ---  | ---     | ---  | ---        |
+| 1 | Supervisionado | Regressão | Regression Trees | |
+| 2 | Supervisionado | Regressão | Regressão linear | |
+| 3 | Supervisionado | Regressão | Regressão Não-linear | |
+| 4 | Supervisionado | Regressão | Bayesian regression | |
+| 5 | Supervisionado | Regressão | Regressão polinomial | |
+| 6 | Supervisionado | Regressão | Regressão logística | |
+| 7 | Supervisionado | Regressão | Back propagation neural network classification | |
+| 8 | Supervisionado | Regressão | Ordinary Least Squares Regression (OLSR) | |
+| 9 | Supervisionado | Regressão | Multivariate Adaptive Regression Splines (MARS) | |
+| 10 | Supervisionado | Regressão | Locally Estimated Scatterplot Smoothing (LOESS) | |
+| 11 | Supervisionado | Classificação | Decision tree | |
+| 12 | Supervisionado | Classificação | Logistic regression | |
+| 13 | Supervisionado | Classificação | Randon forest | |
+| 14 | Supervisionado | Classificação | SVM | |
+| 15 | Supervisionado | Classificação | Naive Bayes | |
+| 16 | Supervisionado | Classificação | KNN | |
+| 17 | Supervisionado | Classificação | Similarity learning | |
+| 18 | Supervisionado | Classificação | Gradient boosting | |
+| 19 | Não Supervisionado | Clustering | Anomaly detection | |
+| 20 | Não Supervisionado | Clustering | K-means | |
+| 21 | Não Supervisionado | Clustering | Hierarchical clustering | |
+| 22 | Não Supervisionado | Associação | Apriori | |
+| 23 | Não Supervisionado | Associação | Association rule | |
+| 24 | Não Supervisionado | Associação | FP-Growth | |
+| 25 | Não Supervisionado | Associação | Principle component analysis
+| 26 | Não Supervisionado | Associação | Singular value decomposition | |
 
 
 
