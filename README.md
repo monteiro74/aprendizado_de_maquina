@@ -1,6 +1,25 @@
 # Aprendizado de maquina
 Aprendizado de maquina
 
+```
+Objetivos: Pequenos exemplos para uso da linguagem python em sala de aula.
+Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio
+de uma linguagem de programação. Como prerequisito é necessário ter uma IDE instalada.
+Este material é extremamente resumido e supõe que o leitor tem conhecimento básico
+de programação ou pelo menos português estruturado.
+```
+
+```
+Observações:
+1. Este material pode ser usado como suporte às disciplinas de: lógica,
+algoritmos, programação e projeto de sistemas.
+2. Este material foi ou poderá ser usado em sala de aula/laboratório/EAD.
+3. Os exemplos estão em python 3.
+4. Esta página poderá passar por atualizações sem aviso prévio.
+5. Se houver necessidade do uso de outras ferramentas de desenvolvimento 
+de software além de python, consulte a lista de ferramentas:
+https://github.com/monteiro74/lista_de_ferramentas
+```
 
 ##Sumário
 
