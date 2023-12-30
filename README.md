@@ -118,6 +118,9 @@ ds = pd.read_csv('dataset.csv')
   2.2. Associação
 3. Reinforcement learning (Aprendizagem por reforço)
 
+
+[Volta ao início](#aprendizado-de-maquina)
+
 ## 1.3. Tabela com alguns algoritmos
 
 Alguns algoritmos citados neste texto estão categorizados abaixo:
