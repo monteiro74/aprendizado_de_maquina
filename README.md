@@ -143,6 +143,95 @@ Aqui estão **alguns** algoritmos para:
 É um algoritmo usado para resolver regressão e classificação. o algoritmo utiliza um modelo de árvore para realizar as predições de valores (regressão) ou predizer classes (classificações). 
 
 
+```python
+# -*- coding: utf-8 -*-
+"""
+@author: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
+"""
+
+import numpy as np 
+import matplotlib.pyplot as plt 
+import pandas as pd 
+
+# o dataset é uma tabela carregada em um array com as seguintes colunas:
+# coluna 1: produtos (categoria de produtos)
+# coluna 2: custo de produção
+# coluna 3: lucro
+ds = np.array( 
+[['Camisa', 100, 1000], 
+['Bolsa', 500, 3000], 
+['Cinto', 1500, 5000], 
+['Calça', 3500, 8000], 
+['Vestido', 5000, 6500], 
+['Sandalia', 6000, 7000], 
+['Boné', 8000, 15000], 
+['Meia', 9500, 20000], 
+['Relogio', 12000, 21000], 
+['Pulseira', 14000, 25000], 
+['Oculos', 15500, 27000], 
+['Colete', 16500, 30000], 
+['Mochila', 25000, 52000], 
+['Terno', 30000, 80000] 
+]) 
+  
+# imprime o dataset
+print('--- imprime o dataset ----------------------')
+print(ds) 
+
+# Seleciona a coluna 2 como tipo int
+# atribui toda a coluna 2 a variavel X
+X = ds[:, 1:2].astype(int)  
+  
+# print X 
+# imprime a coluna X
+print('--- imprime a coluna/eixo X ------------------')
+print(X) 
+
+# Seleciona a coluna 2 como tipo int
+# atribui toda a coluna 2 a variavel Y
+Y = ds[:, 2].astype(int)  
+  
+# print y
+print('--- imprime o linha/eixo y ---------------------------')
+print(Y) 
+
+# aciona a bilbioteca de regressao
+from sklearn.tree import DecisionTreeRegressor  
+  
+# cria o objeto regressor
+regressor = DecisionTreeRegressor(random_state = 0)  
+  
+# passa os valores de X e Y para o regressor 
+regressor.fit(X, Y) 
+
+# realização a predição para o de custo de produção de 27000
+Y_pred = regressor.predict([[27000]]) 
+  
+# mostra o valor previsto para 27000
+print('--- Predição de preço para custo em 27000 ----------------')
+print("Predição de preço: % d\n"% Y_pred) 
+
+# prepara o gráfico
+# valor mínimo de X e Y de 0.01 
+X_grid = np.arange(min(X), max(X), 0.01) 
+# transforma a coluna em pontos para o gráfico
+X_grid = X_grid.reshape((len(X_grid), 1))  
+# carrega o gráfico de dispersão, linha vermelha
+plt.scatter(X, Y, color = 'red') 
+# plota os dados preditos
+plt.plot(X_grid, regressor.predict(X_grid), color = 'blue')  
+# atribui o título
+plt.title('Lucro p/ custo de produção')
+# atribui o eixo X
+plt.xlabel('Custo de produção') 
+# atribui o eixo Y 
+plt.ylabel('Lucro') 
+# mostra o gráfico
+plt.show() 
+
+```
+
+
 ````
 Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
 ````
