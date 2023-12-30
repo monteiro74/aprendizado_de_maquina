@@ -2,6 +2,8 @@
 Aprendizado de maquina
 
 
+##Sumário
+
 
 - [Aprendizado de maquina](#aprendizado-de-maquina)
 - [1. Definições](#1-definições)
