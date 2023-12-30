@@ -189,16 +189,16 @@ Os modelos são treinados usado dataset com rótulos, onde o modelo aprende com 
 
 ## 2.1. As etapas envolvidas do aprendizado supervisionado
 
-1 Determinar o tipo de dataset para treinamento
-2 Coletar os dados com rótulos
-3 Dividir o dataset em 3 partes:
-  3.1 Dataset de treinamento
-  3.2. Datset de teste
-  3.3. Dataset de validação
-4 Determinar o algoritmo para o modelo
-5 Executar o algoritmo no dataset de treinamento
-6 Executar o algoritmo no dataset de teste
-7 Executar o algoritmo no dataset de validação
+1 Determinar o tipo de dataset para treinamento <br>
+2 Coletar os dados com rótulos <br>
+3 Dividir o dataset em 3 partes: <br>
+  3.1 Dataset de treinamento <br>
+  3.2. Datset de teste <br>
+  3.3. Dataset de validação <br>
+4 Determinar o algoritmo para o modelo <br>
+5 Executar o algoritmo no dataset de treinamento <br>
+6 Executar o algoritmo no dataset de teste <br>
+7 Executar o algoritmo no dataset de validação <br>
 
 ## 2.2. Tipos de algoritmos de aprendizado supervisionado
 
