@@ -155,7 +155,7 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | 3 | Supervisionado | Regressão | Bayesian regression | |
 | 4 | Supervisionado | Regressão | Regressão polinomial | |
 | 5 | Supervisionado | Regressão | Regressão logística | |
-| 6 | supervisionado | Regressão | Support Vector Regression (SVR) | |
+| 6 | Supervisionado | Regressão | Support Vector Regression (SVR) | |
 | 7 | Supervisionado | Regressão | Back propagation neural network classification | |
 | 8 | Supervisionado | Regressão | Ordinary Least Squares Regression (OLSR) | |
 | 9 | Supervisionado | Regressão | Multivariate Adaptive Regression Splines (MARS) | |
@@ -177,6 +177,7 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | 25 | Não Supervisionado | Associação | Principle component analysis
 | 26 | Não Supervisionado | Associação | Singular value decomposition | |
 
+
 [Volta ao início](#aprendizado-de-maquina)
 
 ---
@@ -188,16 +189,16 @@ Os modelos são treinados usado dataset com rótulos, onde o modelo aprende com 
 
 ## 2.1. As etapas envolvidas do aprendizado supervisionado
 
-* Determinar o tipo de dataset para treinamento
-* Coletar os dados com rótulos
-* Dividir o dataset em 3 partes:
-  * dataset de treinamento
-  * datset de teste
-  * dataset de validação
-* Determinar o algoritmo para o modelo
-* Executar o algoritmo no dataset de treinamento
-* Executar o algoritmo no dataset de teste
-* Executar o algoritmo no dataset de validação
+1 Determinar o tipo de dataset para treinamento
+2 Coletar os dados com rótulos
+3 Dividir o dataset em 3 partes:
+  3.1 Dataset de treinamento
+  3.2. Datset de teste
+  3.3. Dataset de validação
+4 Determinar o algoritmo para o modelo
+5 Executar o algoritmo no dataset de treinamento
+6 Executar o algoritmo no dataset de teste
+7 Executar o algoritmo no dataset de validação
 
 ## 2.2. Tipos de algoritmos de aprendizado supervisionado
 
