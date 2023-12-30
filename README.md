@@ -239,6 +239,31 @@ Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regr
 
 #### 2.2.1.2. Regressão Linear
 
+```python
+# -*- coding: utf-8 -*-
+# declarações/atribuições
+import matplotlib.pyplot as plt1
+from scipy import stats
+
+             # 1  2  3  4  5  6  7  8  9 10
+velocidade  = [90,93,80,75,79,83,89,71,95,85]
+idade       = [10,9,12,11, 11, 11,11,12,7,9]
+
+
+slope, intercept, r, p, std_err = stats.linregress(velocidade, idade)
+
+def funcao1(velocidade):
+  return slope * velocidade + intercept
+
+modelo1 = list(map(funcao1, velocidade))
+
+# em seguida realizamos as operações
+#           eixo-x eixo-y
+plt1.scatter(velocidade, idade)
+plt1.plot(velocidade, modelo1)
+plt1.show()
+```
+
 #### 2.2.1.3. Regressão não-linear
 
 #### 2.2.1.4. Regressão linear bayesiana
