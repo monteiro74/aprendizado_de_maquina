@@ -37,7 +37,7 @@ Aprendizado de maquina
     - [3.1.1. Clustering](#311-clustering)
       - [3.1.1.1. Anomaly detection](#3111-anomaly-detection)
       - [3.1.1.2. K-means clustering](#3112-k-means-clustering)
-      - [3.1.1.3. Hierarchal clustering](#3113-hierarchal-clustering)
+      - [3.1.1.3. Hierarchical clustering](#3113-hierarchical-clustering)
     - [3.1.2. Associação](#312-associação)
       - [3.1.2.1. Apriori algorithm](#3121-apriori-algorithm)
       - [3.1.2.2. Association rule](#3122-association-rule)
@@ -130,6 +130,26 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | Supervisionado | Regressão | Bayesian regression | |
 | Supervisionado | Regressão | Regressão polinomial | |
 | Supervisionado | Regressão | Regressão logística | |
+| Supervisionado | Regressão | Back propagation neural network classification | |
+| Supervisionado | Regressão | Ordinary Least Squares Regression (OLSR) | |
+| Supervisionado | Regressão | Multivariate Adaptive Regression Splines (MARS) | |
+| Supervisionado | Regressão | Locally Estimated Scatterplot Smoothing (LOESS) | |
+| Supervisionado | Classificação | Decision tree | |
+| Supervisionado | Classificação | Logistic regression | |
+| Supervisionado | Classificação | Randon forest | |
+| Supervisionado | Classificação | SVM | |
+| Supervisionado | Classificação | Naive Bayes | |
+| Supervisionado | Classificação | KNN | |
+| Supervisionado | Classificação | Similarity learning | |
+| Supervisionado | Classificação | Gradient boosting | |
+| Não Supervisionado | Clustering | Anomaly detection | |
+| Não Supervisionado | Clustering | K-means | |
+| Não Supervisionado | Clustering | Hierarchical clustering | |
+| Não Supervisionado | Associação | Apriori | |
+| Não Supervisionado | Associação | Association rule | |
+| Não Supervisionado | Associação | FP-Growth | |
+| Não Supervisionado | Associação | Principle component analysis
+| Não Supervisionado | Associação | Singular value decomposition | |
 
 
 
@@ -386,7 +406,7 @@ Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens 
 
 #### 3.1.1.2. K-means clustering
 
-#### 3.1.1.3. Hierarchal clustering
+#### 3.1.1.3. Hierarchical clustering
 
 
 ### 3.1.2. Associação
