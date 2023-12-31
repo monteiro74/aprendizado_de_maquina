@@ -24,7 +24,6 @@ https://github.com/monteiro74/lista_de_ferramentas
 
 ## Sumário
 
-
 - [Aprendizado de maquina](#aprendizado-de-maquina)
   - [Sumário](#sumário)
 - [1. Definições](#1-definições)
@@ -38,7 +37,6 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [2.2.1. Regressão](#221-regressão)
       - [2.2.1.1. Árvore de regressão](#2211-árvore-de-regressão)
       - [2.2.1.2. Regressão Linear](#2212-regressão-linear)
-      - [2.2.1.3. Regressão linear bayesiana](#2213-regressão-linear-bayesiana)
       - [2.2.1.4. Regressão polinomial](#2214-regressão-polinomial)
       - [2.2.1.5. Logistic Regression](#2215-logistic-regression)
       - [2.2.1.6. Support Vector Regression (SVR)](#2216-support-vector-regression-svr)
@@ -343,9 +341,6 @@ plt1.plot(velocidade, modelo1)
 plt1.show()
 ```
 
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 2.2.1.3. Regressão linear bayesiana
 
 [Volta ao início](#aprendizado-de-maquina)
 
