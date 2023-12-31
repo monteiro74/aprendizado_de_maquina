@@ -37,13 +37,13 @@ https://github.com/monteiro74/lista_de_ferramentas
     - [2.2.1. Regressão](#221-regressão)
       - [2.2.1.1. Árvore de regressão](#2211-árvore-de-regressão)
       - [2.2.1.2. Regressão Linear](#2212-regressão-linear)
-      - [2.2.1.4. Regressão polinomial](#2214-regressão-polinomial)
-      - [2.2.1.5. Logistic Regression](#2215-logistic-regression)
-      - [2.2.1.6. Support Vector Regression (SVR)](#2216-support-vector-regression-svr)
-      - [2.2.1.7. Back propagation neural network classification](#2217-back-propagation-neural-network-classification)
-      - [2.2.1.8. Ordinary Least Squares Regression (OLSR)](#2218-ordinary-least-squares-regression-olsr)
-      - [2.2.1.9. Multivariate Adaptive Regression Splines (MARS)](#2219-multivariate-adaptive-regression-splines-mars)
-      - [2.2.1.10. Locally Estimated Scatterplot Smoothing (LOESS)](#22110-locally-estimated-scatterplot-smoothing-loess)
+      - [2.2.1.3. Regressão polinomial](#2213-regressão-polinomial)
+      - [2.2.1.4. Logistic Regression](#2214-logistic-regression)
+      - [2.2.1.5. Support Vector Regression (SVR)](#2215-support-vector-regression-svr)
+      - [2.2.1.6. Back propagation neural network classification](#2216-back-propagation-neural-network-classification)
+      - [2.2.1.7. Ordinary Least Squares Regression (OLSR)](#2217-ordinary-least-squares-regression-olsr)
+      - [2.2.1.8. Multivariate Adaptive Regression Splines (MARS)](#2218-multivariate-adaptive-regression-splines-mars)
+      - [2.2.1.9. Locally Estimated Scatterplot Smoothing (LOESS)](#2219-locally-estimated-scatterplot-smoothing-loess)
     - [2.2.2. Classificação](#222-classificação)
       - [2.2.2.1. Árvore de decisão](#2221-árvore-de-decisão)
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
@@ -72,6 +72,7 @@ https://github.com/monteiro74/lista_de_ferramentas
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
+
 
 
 ---
@@ -211,7 +212,6 @@ Aqui estão **alguns** algoritmos para:
 
 #### 2.2.1.1. Árvore de regressão
 
-
 É um algoritmo usado para resolver regressão e classificação. o algoritmo utiliza um modelo de árvore para realizar as predições de valores (regressão) ou predizer classes (classificações). 
 
 Exemplo em python:
@@ -343,7 +343,7 @@ plt1.show()
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.4. Regressão polinomial
+#### 2.2.1.3. Regressão polinomial
 
 Exemplo em python:
 
@@ -367,7 +367,7 @@ plt1.show()
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.5. Logistic Regression
+#### 2.2.1.4. Logistic Regression
 
 O algoritmo de **regressão logística** é uma **regressão** ou **classificação** ? https://datascience.stackexchange.com/questions/473/is-logistic-regression-actually-a-regression-algorithm
 
@@ -379,25 +379,25 @@ https://www.javatpoint.com/regression-analysis-in-machine-learning
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.6. Support Vector Regression (SVR)
+#### 2.2.1.5. Support Vector Regression (SVR)
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.7. Back propagation neural network classification
+#### 2.2.1.6. Back propagation neural network classification
 
 Este algoritmo pode ser usado tanto para classificação como regressão.
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.8. Ordinary Least Squares Regression (OLSR)
+#### 2.2.1.7. Ordinary Least Squares Regression (OLSR)
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.9. Multivariate Adaptive Regression Splines (MARS)
+#### 2.2.1.8. Multivariate Adaptive Regression Splines (MARS)
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.10. Locally Estimated Scatterplot Smoothing (LOESS)
+#### 2.2.1.9. Locally Estimated Scatterplot Smoothing (LOESS)
 
 [Volta ao início](#aprendizado-de-maquina)
 
