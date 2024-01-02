@@ -343,6 +343,16 @@ plt1.show()
 
 #### 2.2.1.3. Regressão polinomial
 
+Definição: 
+```
+A regressão polinomial é uma análise estatística que descreve a variação de uma variável
+aleatória explicada a partir de uma função polinomial de uma variável explicativa. Este é
+um caso especial de regressão linear múltipla , em que as observações são construídas a
+partir dos poderes de uma única variável. 
+Fonte: https://pt.frwiki.wiki/wiki/R%C3%A9gression_polynomiale
+```
+
+
 Exemplo em python:
 
 ```python
@@ -386,8 +396,10 @@ https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html#sphx-
 
 Traduzindo o exemplo:
 ```
-Exemplo de brinquedo de regressão 1D usando kernels lineares, polinomiais e RBF.
+"Exemplo de brinquedo de regressão 1D usando kernels lineares, polinomiais e RBF".
 ```
+
+Exemplo em python
 
 ```python
 # -*- coding: utf-8 -*-
