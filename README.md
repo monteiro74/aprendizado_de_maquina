@@ -316,8 +316,6 @@ Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regr
 Exemplo em python:
 
 ```python
-# -*- coding: utf-8 -*-
-# declarações/atribuições
 import matplotlib.pyplot as plt1
 from scipy import stats
 
@@ -348,8 +346,6 @@ plt1.show()
 Exemplo em python:
 
 ```python
-# -*- coding: utf-8 -*-
-# declarações/atribuições
 import numpy
 import matplotlib.pyplot as plt1
 
@@ -380,6 +376,82 @@ https://www.javatpoint.com/regression-analysis-in-machine-learning
 [Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.1.5. Support Vector Regression (SVR)
+
+É uma variação do Support Vector Machine que implementa regressão linear e não linear. Objetivando encontrar uma função para prever o valor de saída de um dado valor de entrada.  Podendo ser usado para predição de séries temporais. 
+
+```
+O exemplo abaixo esta disponível em:
+https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html#sphx-glr-auto-examples-svm-plot-svm-regression-py
+```
+
+Traduzindo o exemplo:
+```
+Exemplo de brinquedo de regressão 1D usando kernels lineares, polinomiais e RBF.
+```
+
+```python
+# -*- coding: utf-8 -*-
+"""
+@author: https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html#sphx-glr-auto-examples-svm-plot-svm-regression-py
+"""
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+from sklearn.svm import SVR
+
+X = np.sort(5 * np.random.rand(40, 1), axis=0)
+y = np.sin(X).ravel()
+y[::5] += 3 * (0.5 - np.random.rand(8))
+
+svr_rbf = SVR(kernel="rbf", C=100, gamma=0.1, epsilon=0.1)
+svr_lin = SVR(kernel="linear", C=100, gamma="auto")
+svr_poly = SVR(kernel="poly", C=100, gamma="auto", degree=3, epsilon=0.1, coef0=1)
+
+lw = 2
+
+svrs = [svr_rbf, svr_lin, svr_poly]
+kernel_label = ["RBF", "Linear", "Polynomial"]
+model_color = ["m", "c", "g"]
+
+fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(15, 10), sharey=True)
+for ix, svr in enumerate(svrs):
+    axes[ix].plot(
+        X,
+        svr.fit(X, y).predict(X),
+        color=model_color[ix],
+        lw=lw,
+        label="{} model".format(kernel_label[ix]),
+    )
+    axes[ix].scatter(
+        X[svr.support_],
+        y[svr.support_],
+        facecolor="none",
+        edgecolor=model_color[ix],
+        s=50,
+        label="{} support vectors".format(kernel_label[ix]),
+    )
+    axes[ix].scatter(
+        X[np.setdiff1d(np.arange(len(X)), svr.support_)],
+        y[np.setdiff1d(np.arange(len(X)), svr.support_)],
+        facecolor="none",
+        edgecolor="k",
+        s=50,
+        label="other training data",
+    )
+    axes[ix].legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, 1.1),
+        ncol=1,
+        fancybox=True,
+        shadow=True,
+    )
+
+fig.text(0.5, 0.04, "data", ha="center", va="center")
+fig.text(0.06, 0.5, "target", ha="center", va="center", rotation="vertical")
+fig.suptitle("Support Vector Regression", fontsize=14)
+plt.show()
+```
 
 [Volta ao início](#aprendizado-de-maquina)
 
