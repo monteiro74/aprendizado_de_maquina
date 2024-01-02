@@ -313,6 +313,15 @@ Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regr
 
 #### 2.2.1.2. Regressão Linear
 
+Definição:
+```
+A análise de regressão linear é usada para prever o valor de uma variável 
+com base no valor de outra variável. A variável que você deseja prever é 
+chamada de variável dependente. A variável que você está usando para prever 
+o valor da outra variável é chamada de variável independente.
+Fonte: https://www.ibm.com/topics/linear-regression
+```
+
 Exemplo em python:
 
 ```python
