@@ -485,15 +485,12 @@ Este algoritmo pode ser usado tanto para classificação como regressão.
 #### 2.2.1.7. Ordinary Least Squares Regression (OLSR)
 
 
+
 ```python
 # -*- coding: utf-8 -*-
 """
-fonte: https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols_ridge_variance.html#sphx-glr-auto-examples-linear-model-plot-ols-ridge-variance-py
+Fonte: https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols_ridge_variance.html#sphx-glr-auto-examples-linear-model-plot-ols-ridge-variance-py
 """
-# Code source: Gaël Varoquaux
-# Modified for documentation by Jaques Grobler
-# License: BSD 3 clause
-
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -535,11 +532,6 @@ for name, clf in classifiers.items():
 plt.show()
 ```
 
-Outro exemplo:
-
-```python
-
-```
 
 [Volta ao início](#aprendizado-de-maquina)
 
