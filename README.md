@@ -176,6 +176,9 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | 25 | Não Supervisionado | Associação | Singular value decomposition | |
 
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSIPFJyJ6PTb-GdgjaMMZd9SnB4FxjyCFuSnB-iO51it7SFv3LkvAdF94W8BLpAu2fiJp0K9ThDzEu2/pubhtml?gid=2106935983&amp;single=true&amp;widget=true&amp;headers=false" width="800" height="800">
+</iframe>
+
 [Volta ao início](#aprendizado-de-maquina)
 
 ---
