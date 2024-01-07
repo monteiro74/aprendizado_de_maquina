@@ -26,13 +26,13 @@ de programação, estatística e/ou pelo menos português estruturado.
 
 ## Sumário
 
+
 - [Aprendizado de maquina](#aprendizado-de-maquina)
   - [Sumário](#sumário)
 - [1. Definições](#1-definições)
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
-  - [1.2.  O aprendizado de máquina esta dividido em 3 grandes áreas:](#12--o-aprendizado-de-máquina-esta-dividido-em-3-grandes-áreas)
-  - [1.3. Tabela com alguns algoritmos](#13-tabela-com-alguns-algoritmos)
+  - [1.2.  O aprendizado de máquina esta dividido em grandes áreas](#12--o-aprendizado-de-máquina-esta-dividido-em-grandes-áreas)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
@@ -46,24 +46,11 @@ de programação, estatística e/ou pelo menos português estruturado.
       - [2.2.1.7. Ordinary Least Squares Regression (OLSR)](#2217-ordinary-least-squares-regression-olsr)
     - [2.2.2. Classificação](#222-classificação)
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
-      - [2.2.2.3. Random Forest](#2223-random-forest)
-      - [2.2.2.4. SVM (Support Vector Machines)](#2224-svm-support-vector-machines)
-      - [2.2.2.5. Naive Bayes](#2225-naive-bayes)
-      - [2.2.2.6. K-Nearest Neighbors (KNN)](#2226-k-nearest-neighbors-knn)
       - [2.2.2.7. Similarity learning](#2227-similarity-learning)
-      - [2.2.2.8. Gradient Boosting](#2228-gradient-boosting)
 - [3. Aprendizado de máquina não supervisionado](#3-aprendizado-de-máquina-não-supervisionado)
   - [3.1. Tipos de algoritmos de aprendizado não supervisionado](#31-tipos-de-algoritmos-de-aprendizado-não-supervisionado)
     - [3.1.1. Clustering](#311-clustering)
-      - [3.1.1.1. Anomaly detection](#3111-anomaly-detection)
-      - [3.1.1.2. K-Means clustering](#3112-k-means-clustering)
-      - [3.1.1.3. Hierarchical clustering](#3113-hierarchical-clustering)
     - [3.1.2. Associação](#312-associação)
-      - [3.1.2.1. Apriori algorithm](#3121-apriori-algorithm)
-      - [3.1.2.2. Association rule](#3122-association-rule)
-      - [3.1.2.3. FP-Growth algorithm](#3123-fp-growth-algorithm)
-      - [3.1.2.3. Principle Component Analysis](#3123-principle-component-analysis)
-      - [3.1.2.4. Singular value decomposition](#3124-singular-value-decomposition)
 - [4. Aprendizagem por reforço (reinforcement learning, RL)](#4-aprendizagem-por-reforço-reinforcement-learning-rl)
 - [+ Referências](#-referências)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
@@ -71,7 +58,6 @@ de programação, estatística e/ou pelo menos português estruturado.
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
-
 
 
 ---
@@ -129,22 +115,7 @@ Os dataset (ds) geralmente estão no formato CSV e podem ser lidos com o seguint
 ds = pd.read_csv('dataset.csv')
 ```
 
-## 1.2.  O aprendizado de máquina esta dividido em 3 grandes áreas:
-
-1.  Supervised learning (Aprendizagem por reforço)
-   1.1. Classificação
-   1.2. Regressão
-2. Unsupervised learning (Aprendizagem não supervisionada)
-  2.1. Clustering (agrupamento)
-  2.2. Associação
-3. Reinforcement learning (Aprendizagem por reforço)
-
-
-[Volta ao início](#aprendizado-de-maquina)
-
-## 1.3. Tabela com alguns algoritmos
-
-Alguns algoritmos citados neste texto estão categorizados abaixo:
+## 1.2.  O aprendizado de máquina esta dividido em grandes áreas
 
 
 | Id | Categoria | Subcategoria  | Algoritmo |
@@ -215,7 +186,7 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | 64 | Neural networks | Generative Adversarial Networks | Cycle GAN |
 | 65 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
 | 66 | Neural networks | Generative Adversarial Networks | Generative Adversarial Networks (GAN)|
-| 67 | Neural networks | Generative Adversarial Networks | Conditiona GAN (cGAN) |
+| 67 | Neural networks | Generative Adversarial Networks | Conditional GAN (cGAN) |
 | 68 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
 
 Adaptado de: https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
@@ -594,30 +565,11 @@ O algoritmo de **regressão logística** é uma **regressão** ou **classificaç
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.2.3. Random Forest
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 2.2.2.4. SVM (Support Vector Machines)
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 2.2.2.5. Naive Bayes
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 2.2.2.6. K-Nearest Neighbors (KNN)
-
-[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.2.7. Similarity learning
 
 
 **Observação:** este algoritmo pode ser usado na regressão e classificação.
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 2.2.2.8. Gradient Boosting
 
 [Volta ao início](#aprendizado-de-maquina)
 
@@ -641,42 +593,11 @@ Por exemplo: Estes algoritmos podem receber um dataset contendo várias imagens 
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 3.1.1.1. Anomaly detection
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.1.2. K-Means clustering
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.1.3. Hierarchical clustering
-
-[Volta ao início](#aprendizado-de-maquina)
 
 
 ### 3.1.2. Associação
 
 O objetivo destes algoritmos é detectar as regras de associação entre as variáveis (geralmente em grandes datasets). Estes algoritmos buscas associações frequentes entre os dados, chamadas de regras se-então, descobrindo correlações e ocorrências entre os dados e suas conexções. Um exemplo poderia ser descobrir que quem compra o produto A pode comprar o produto B pela observação do conteúdo de um carrinho de compra. 
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.2.1. Apriori algorithm
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.2.2. Association rule
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.2.3. FP-Growth algorithm
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.2.3. Principle Component Analysis
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 3.1.2.4. Singular value decomposition
 
 [Volta ao início](#aprendizado-de-maquina)
 
