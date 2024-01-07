@@ -2,16 +2,14 @@
 
 Compilado de material sobre aprendizado de maquina.
 
+**AVISO**: Esta página esta em construção!
 
 Objetivos:
 ``` 
-Pequenos exemplos para uso da linguagem python em sala de aula.
-Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio
-de uma linguagem de programação.
-Caso queira testar alguns exemplos fornecidos é necessário ter uma IDE instalada (nesse caso
-sugeris consultar a lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas).
-Este material é extremamente resumido e supõe que o leitor tem conhecimento básico
-de programação, estatística e/ou pelo menos português estruturado.
+>> Reunir conceitos e exemplos de aprendizado de máquina para serem usados
+ em sala de aula.
+>> Quando possível utilizar exemplos na linguagem python ou apontar
+ referências externas.
 ```
 
 Observações:
@@ -24,6 +22,8 @@ e projeto de sistemas.
 5. Se houver necessidade do uso de outras ferramentas de desenvolvimento de software além de 
 python, consulte a lista de ferramentas:
 https://github.com/monteiro74/lista_de_ferramentas
+6. Este material é resumido e supõe que o leitor tem conhecimento básico
+de programação, estatística e/ou pelo menos português estruturado.
 ```
 
 ## Sumário
