@@ -44,10 +44,7 @@ de programação, estatística e/ou pelo menos português estruturado.
       - [2.2.1.5. Support Vector Regression (SVR)](#2215-support-vector-regression-svr)
       - [2.2.1.6. Back propagation neural network classification](#2216-back-propagation-neural-network-classification)
       - [2.2.1.7. Ordinary Least Squares Regression (OLSR)](#2217-ordinary-least-squares-regression-olsr)
-      - [2.2.1.8. Multivariate Adaptive Regression Splines (MARS)](#2218-multivariate-adaptive-regression-splines-mars)
-      - [2.2.1.9. Locally Estimated Scatterplot Smoothing (LOESS)](#2219-locally-estimated-scatterplot-smoothing-loess)
     - [2.2.2. Classificação](#222-classificação)
-      - [2.2.2.1. Árvore de decisão](#2221-árvore-de-decisão)
       - [2.2.2.2. Logistic Regression](#2222-logistic-regression)
       - [2.2.2.3. Random Forest](#2223-random-forest)
       - [2.2.2.4. SVM (Support Vector Machines)](#2224-svm-support-vector-machines)
@@ -68,7 +65,7 @@ de programação, estatística e/ou pelo menos português estruturado.
       - [3.1.2.3. Principle Component Analysis](#3123-principle-component-analysis)
       - [3.1.2.4. Singular value decomposition](#3124-singular-value-decomposition)
 - [4. Aprendizagem por reforço (reinforcement learning, RL)](#4-aprendizagem-por-reforço-reinforcement-learning-rl)
-- [Referências](#referências)
+- [+ Referências](#-referências)
 - [Avisos, licença, observações, estatísticas](#avisos-licença-observações-estatísticas)
   - [Aviso](#aviso)
   - [Licença](#licença)
@@ -582,14 +579,6 @@ plt.show()
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.1.8. Multivariate Adaptive Regression Splines (MARS)
-
-[Volta ao início](#aprendizado-de-maquina)
-
-#### 2.2.1.9. Locally Estimated Scatterplot Smoothing (LOESS)
-
-[Volta ao início](#aprendizado-de-maquina)
-
 
 ### 2.2.2. Classificação
 
@@ -599,9 +588,6 @@ Aqui estão **alguns** algoritmos dest tipo:
 
 [Volta ao início](#aprendizado-de-maquina)
 
-#### 2.2.2.1. Árvore de decisão 
-
-[Volta ao início](#aprendizado-de-maquina)
 
 #### 2.2.2.2. Logistic Regression
 
@@ -709,12 +695,19 @@ São algoritmos que não entram nenhuma das classificações anteriores. Este ti
 
 Alguns exemplos de algoritmos são: 
 
-* Markov decision process (MDP)
-* Bellman equation
+* Markov decision process (MDP) [^2]
+* Bellman equation [^4]
 * Dynamic programming
 * Value iteration
-* Policy iteration
+* Policy iteration [^3]
 * Q-learning
+
+
+[^2]: Reinforcement Learning: Part 2: Markov Decision Process. Jain, Mehul. https://medium.com/@j13mehul/reinforcement-learning-part-2-markov-decision-process-755cf6473d64
+
+[^3]: Reinforcement Learning: Part 10: Policy-Gradient Methods — REINFORCE, Actor-Critic. Jain, Mehul. https://medium.com/@j13mehul/reinforcement-learning-part-10-policy-gradient-methods-reinforce-actor-critic-7973393f8820
+
+[^4]: Reinforcement Learning: Part 3: Bellman Equation. Jain, Mehul. https://medium.com/@j13mehul/reinforcement-learning-part-3-bellman-equation-5e82311df44b
 
 Nos algoritmos "model-based", o agente é capaz de prever a recompensa e decide de forma a otimizar o resultado. É usado em situações onde se detem conhecimento sobre o ambiente e os resultados das ações sobre aquele ambiente.
 
@@ -733,7 +726,7 @@ Seção em desenvolvimento
 [Volta ao início](#aprendizado-de-maquina)
 
 ---
-# Referências
+# + Referências
 
 Lista de algoritmos 
 https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/
@@ -761,7 +754,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## Observação
 ```
-Primeira postagem em: Junho/2023.
+Primeira postagem em: Dezembro/2023.
 ```
 
 
