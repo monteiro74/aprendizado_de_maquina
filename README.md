@@ -192,31 +192,34 @@ Alguns algoritmos citados neste texto estão categorizados abaixo:
 | 38 | Unsupervised | Dimensionality Reduction | Multidimensional Scaling (MDS) |
 | 39 | Unsupervised | Dimensionality Reduction | Principal Component Analysis (PCA) |
 | 40 | Unsupervised | Dimensionality Reduction | Uniform Manifold Approximation and Projection (UMAP) |
-| 41 | Reinforcedment | Policy-based methods | Proximal Policy Optimization (PPO) |
-| 42 | Reinforcedment | Policy-based methods | Policy Gradient (Reinforce) |
-| 43 | Reinforcedment | Value-based methods  | Deep Q Neural Network (DQN) |
-| 44 | Reinforcedment | Value-based methods  | State-Action-Rewards-State-Action (SARSA) |
-| 45 | Reinforcedment | Value-based methods  | Q-Learning |
-| 46 | Semi supervised | Label propagation |     |
-| 47 | Semi supervised | Label spreading |  |
-| 48 | Semi supervised | Self training classifier | |
-| 49 | Neural networks | Auto encoders  | Sparse Auto Encoder (SAE)  |
-| 50 | Neural networks | Auto encoders  | Denoising Auto Encoder (DAE) |
-| 51 | Neural networks | Auto encoders  | Variational auto Encoder (VAE)  |
-| 52 | Neural networks | Auto encoders  | Undercomplete Auto Encoder (AE)  |
-| 53 | Neural networks | Recurrent Neural Networks | Long Short Term memory (LSTM)   |
-| 54 | Neural networks | Recurrent Neural Networks | Recurrent Neural Network (RNN)  |
-| 55 | Neural networks | Recurrent Neural Networks | Gated Reccurent Unit (GRU) |
-| 56 | Neural networks | Feed Fordward Neural Networks | Feed Forward (FF)  |
-| 57 | Neural networks | Feed Fordward Neural Networks | Deep Feed Forward (DFF) |
-| 58 | Neural networks | Convolutional Neural Networks | Transposed Convolutional Network |
-| 59 | Neural networks | Convolutional Neural Networks | Deep Convolutional Network (DCN) |
-| 60 | Neural networks | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN) |
-| 61 | Neural networks | Generative Adversarial Networks | Cycle GAN |
-| 62 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
-| 63 | Neural networks | Generative Adversarial Networks | Generative Adversarial Networks (GAN)|
-| 64 | Neural networks | Generative Adversarial Networks | Conditiona GAN (cGAN) |
-| 66 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
+| 41 | Reinforcement | Policy-based methods | Proximal Policy Optimization (PPO) |
+| 42 | Reinforcement | Policy-based methods | Policy Gradient Methods |
+| 43 | Reinforcement | Policy-based methods | Markov Decision Process |
+| 44 | Reinforcement | Policy-based methods | Bellman Equation |
+| 45 | Reinforcement | Policy-based methods | Dynamic Programming |
+| 46 | Reinforcement | Value-based methods  | Deep Q Neural Network (DQN) |
+| 47 | Reinforcement | Value-based methods  | State-Action-Rewards-State-Action (SARSA) |
+| 48 | Reinforcement | Value-based methods  | Q-Learning |
+| 49 | Semi supervised | Label propagation | |
+| 50 | Semi supervised | Label spreading | |
+| 51 | Semi supervised | Self training classifier | |
+| 52 | Neural networks | Auto encoders | Sparse Auto Encoder (SAE)  |
+| 53 | Neural networks | Auto encoders | Denoising Auto Encoder (DAE) |
+| 54 | Neural networks | Auto encoders | Variational auto Encoder (VAE)  |
+| 55 | Neural networks | Auto encoders | Undercomplete Auto Encoder (AE)  |
+| 56 | Neural networks | Recurrent Neural Networks | Long Short Term memory (LSTM)   |
+| 57 | Neural networks | Recurrent Neural Networks | Recurrent Neural Network (RNN)  |
+| 58 | Neural networks | Recurrent Neural Networks | Gated Reccurent Unit (GRU) |
+| 59 | Neural networks | Feed Fordward Neural Networks | Feed Forward (FF)  |
+| 60 | Neural networks | Feed Fordward Neural Networks | Deep Feed Forward (DFF) |
+| 61 | Neural networks | Convolutional Neural Networks | Transposed Convolutional Network |
+| 62 | Neural networks | Convolutional Neural Networks | Deep Convolutional Network (DCN) |
+| 63 | Neural networks | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN) |
+| 64 | Neural networks | Generative Adversarial Networks | Cycle GAN |
+| 65 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
+| 66 | Neural networks | Generative Adversarial Networks | Generative Adversarial Networks (GAN)|
+| 67 | Neural networks | Generative Adversarial Networks | Conditiona GAN (cGAN) |
+| 68 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
 
 Adaptado de: https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
 
