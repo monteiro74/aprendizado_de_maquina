@@ -147,102 +147,76 @@ ds = pd.read_csv('dataset.csv')
 
 Alguns algoritmos citados neste texto estão categorizados abaixo:
 
-| ID | Tipo | Subtipo | Algoritmo | Observacao |
-| --- | ---  | ---     | ---  | ---        |
-| 1 | Supervisionado | Regressão | Regression Trees | |
-| 2 | Supervisionado | Regressão | Regressão linear | |
-| 3 | Supervisionado | Regressão | Regressão polinomial | |
-| 4 | Supervisionado | Regressão | Regressão logística | |
-| 5 | Supervisionado | Regressão | Support Vector Regression (SVR) | |
-| 6 | Supervisionado | Regressão | Back propagation neural network classification | |
-| 7 | Supervisionado | Regressão | Ordinary Least Squares Regression (OLSR) | |
-| 8 | Supervisionado | Regressão | Multivariate Adaptive Regression Splines (MARS) | |
-| 9 | Supervisionado | Regressão | Locally Estimated Scatterplot Smoothing (LOESS) | |
-| 10 | Supervisionado | Classificação | Decision tree | |
-| 11 | Supervisionado | Classificação | Logistic regression | |
-| 12 | Supervisionado | Classificação | Randon forest | |
-| 13 | Supervisionado | Classificação | SVM | |
-| 14 | Supervisionado | Classificação | Naive Bayes | |
-| 15 | Supervisionado | Classificação | KNN | |
-| 16 | Supervisionado | Classificação | Similarity learning | |
-| 17 | Supervisionado | Classificação | Gradient boosting | |
-| 18 | Não Supervisionado | Clustering | Anomaly detection | |
-| 19 | Não Supervisionado | Clustering | K-means | |
-| 20 | Não Supervisionado | Clustering | Hierarchical clustering | |
-| 21 | Não Supervisionado | Associação | Apriori | |
-| 22 | Não Supervisionado | Associação | Association rule | |
-| 23 | Não Supervisionado | Associação | FP-Growth | |
-| 24 | Não Supervisionado | Associação | Principle component analysis
-| 25 | Não Supervisionado | Associação | Singular value decomposition | |
 
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
+| 1 | Supervised | Classification | Naive Bayes  |
+| 2 | Supervised | Classification | Logistic Regression |
+| 3 | Supervised | Classification | K-nearest neighbors classification (KNN)  |
+| 4 | Supervised | Classification | Extreme Gradient Boosting (XGBoost)  |
+| 5 | Supervised | Classification | Gradient Boosted Trees |
+| 6 | Supervised | Classification | Adaptative Boosting (AdaBoosting) |
+| 7 | Supervised | Classification | Random Forest Classification |
+| 8 | Supervised | Classification | Decision Tree Classification (CART) |
+| 9 | Supervised | Classification | Support Vector Machines (SVM) |
+| 10 | Supervised | Classification | Similarity Learning  |
+| 11 | Supervised | Regression | Linear Regression  |
+| 12 | Supervised | Regression | Polinomial Regression |
+| 13 | Supervised | Regression | Logistic Regression |
+| 14 | Supervised | Regression | K-Nearest Neighbors Regression (KNN) |
+| 15 | Supervised | Regression | Randon Forest Regression |
+| 16 | Supervised | Regression | Decision Tree Regression (CART) |
+| 17 | Supervised | Regression | Support Vector Regressions (SVR) |
+| 18 | Supervised | Regression | Locally Weighted Scatterplot Smoothing (LOWESS) |
+| 19 | Supervised | Regression | Multivariate Adaptative Regression Splines (MARS) |
+| 20 | Supervised | Regression | Back propagation neural network classification (BPNN) |
+| 21 | Supervised | Regression | Ordinary Least Squares Regression (OLSR) |
+| 22 | Supervised | Regression | Locally Estimated Scatterplot Smoothing (LOESS) |
+| 23 | Supervised | Dimensionality Reduction  | Linear Discriminant Analysis (LDA) |
+| 24 | Unsupervised | Association | Apriori |
+| 25 | Unsupervised | Association | Association Rule |
+| 26 | Unsupervised | Association | FP-Growth |
+| 27 | Unsupervised | Association | Principle Component Analysis |
+| 28 | Unsupervised | Association | Singular Value Decomposition |
+| 29 | Unsupervised | Clustering | K-MEANS |
+| 30 | Unsupervised | Clustering | Anomaly Detection |
+| 31 | Unsupervised | Clustering | Gaussian Mixture Models (GMM) |
+| 32 | Unsupervised | Clustering | Hierarchical Aglomerative Clustering (HAC) |
+| 33 | Unsupervised | Clustering | Hierarchical Divisive Clustering |
+| 34 | Unsupervised | Clustering | Density-based Spatial Clustering of Applications with Noise (DBSCAN) |
+| 35 | Unsupervised | Dimensionality Reduction | Locally Linear Embeding (LLE) |
+| 36 | Unsupervised | Dimensionality Reduction | t-Distributed Stochastic Nighbor Embedding (b-SNE) |
+| 37 | Unsupervised | Dimensionality Reduction | Isomap Embedding |
+| 38 | Unsupervised | Dimensionality Reduction | Multidimensional Scaling (MDS) |
+| 39 | Unsupervised | Dimensionality Reduction | Principal Component Analysis (PCA) |
+| 40 | Unsupervised | Dimensionality Reduction | Uniform Manifold Approximation and Projection (UMAP) |
+| 41 | Reinforcedment | Policy-based methods | Proximal Policy Optimization (PPO) |
+| 42 | Reinforcedment | Policy-based methods | Policy Gradient (Reinforce) |
+| 43 | Reinforcedment | Value-based methods  | Deep Q Neural Network (DQN) |
+| 44 | Reinforcedment | Value-based methods  | State-Action-Rewards-State-Action (SARSA) |
+| 45 | Reinforcedment | Value-based methods  | Q-Learning |
+| 46 | Semi supervised | Label propagation |     |
+| 47 | Semi supervised | Label spreading |  |
+| 48 | Semi supervised | Self training classifier | |
+| 49 | Neural networks | Auto encoders  | Sparse Auto Encoder (SAE)  |
+| 50 | Neural networks | Auto encoders  | Denoising Auto Encoder (DAE) |
+| 51 | Neural networks | Auto encoders  | Variational auto Encoder (VAE)  |
+| 52 | Neural networks | Auto encoders  | Undercomplete Auto Encoder (AE)  |
+| 53 | Neural networks | Recurrent Neural Networks | Long Short Term memory (LSTM)   |
+| 54 | Neural networks | Recurrent Neural Networks | Recurrent Neural Network (RNN)  |
+| 55 | Neural networks | Recurrent Neural Networks | Gated Reccurent Unit (GRU) |
+| 56 | Neural networks | Feed Fordward Neural Networks | Feed Forward (FF)  |
+| 57 | Neural networks | Feed Fordward Neural Networks | Deep Feed Forward (DFF) |
+| 58 | Neural networks | Convolutional Neural Networks | Transposed Convolutional Network |
+| 59 | Neural networks | Convolutional Neural Networks | Deep Convolutional Network (DCN) |
+| 60 | Neural networks | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN) |
+| 61 | Neural networks | Generative Adversarial Networks | Cycle GAN |
+| 62 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
+| 63 | Neural networks | Generative Adversarial Networks | Generative Adversarial Networks (GAN)|
+| 64 | Neural networks | Generative Adversarial Networks | Conditiona GAN (cGAN) |
+| 66 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
 
-
-
-
-teste
-
-
-
-
-teste
-
-
-| Categoria      | Subcategoria                  | Algoritmo      |
-|--- | --- | --- |
-| Supervised | Classification | Naive Bayes      |
-| Supervised | Classification | Logistic Regression                                                  |
-| Supervised | Classification | K-nearest neighbors classification (KNN)                             |
-| Supervised | Classification | Extreme Gradient Boosting (XGBoost)                                  |
-| Supervised | Classification | Gradient Boosted Trees                                               |
-| Supervised | Classification | Adaptative Boosting (AdaBoosting)                                    |
-| Supervised | Classification | Random Forest Classification                                         |
-| Supervised | Classification | Decision Tree Classification (CART)                                  |
-| Supervised | Classification | Support Vector Machines (SVM)                                        |
-| Supervised | Regression                      | Linear Regression                                                    |
-| Supervised |                                 | K-Nearest Neighbors Regression (KNN)                                 |
-| Supervised |                                 | Randon Forest Regression                                             |
-| Supervised |                                 | Decision Tree Regression (CART)                                      |
-| Supervised |                                 | Support Vector Regressions (SVR)                                     |
-| Supervised |                                 | Locally Weighted Scatterplot Smoothing (LOWESS)                      |
-| Supervised |                                 | Multivariate Adaptative Regression Splines (MARS)                    |
-| Supervised | Dimensionality Reduction        | Linear Discriminant Analysis (LDA)                                   |
-| Unsupervised    | Association                     | Apriori                                                              |
-|                 | Clustering                      | K-MEANS                                                              |
-|                 |                                 | Gaussian Mixture Models (GMM)                                        |
-|                 |                                 | Hierarchical Aglomerative Clustering (HAC)                           |
-|                 |                                 | Density-based Spatial Clustering of Applications with Noise (DBSCAN) |
-|                 | Dimensionality Reduction        | Locally Linear Embeding (LLE)                                        |
-|                 |                                 | t-Distributed Stochastic Nighbor Embedding (b-SNE)                   |
-|                 |                                 | Isomap Embedding                                                     |
-|                 |                                 | Multidimensional Scaling (MDS)                                       |
-|                 |                                 | Principal Component Analysis (PCA)                                   |
-|                 |                                 | Uniform Manifold Approximation and Projection (UMAP)                 |
-| Reinforcedment  | Policy-based methods            | Proximal Policy Optimization (PPO)                                   |
-|                 |                                 | Policy Gradient (Reinforce)                                          |
-|                 | Value-based methods             | Deep Q Neural Network (DQN)                                          |
-|                 |                                 | State-Action-Rewards-State-Action (SARSA)                            |
-|                 |                                 | Q-Learning                                                           |
-| Semi supervised | Label propagation               |                                                                      |
-|                 | Label spreading                 |                                                                      |
-|                 | Self training classifier        |                                                                      |
-| Neural networks | Auto encoders                   | Sparse Auto Encoder (SAE)                                            |
-|                 |                                 | Denoising Auto Encoder (DAE)                                         |
-|                 |                                 | Variational auto Encoder (VAE)                                       |
-|                 |                                 | Undercomplete Auto Encoder (AE)                                      |
-|                 | Recurrent Neural Networks       | Long Short Term memory (LSTM                                         |
-|                 |                                 | Recurrent Neural Network (RNN)                                       |
-|                 |                                 | Gated Reccurent Unit (GRU)                                           |
-|                 | Feed Fordward Neural Networks   | Feed Forward (FF)                                                    |
-|                 |                                 | Deep Feed Forward (DFF)                                              |
-|                 | Convolutional Neural Networks   | Transposed Convolutional Network                                     |
-|                 |                                 | Deep Convolutional Network (DCN)                                     |
-|                 | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN)                                       |
-|                 |                                 | Cycle GAN                                                            |
-|                 |                                 | Wasserstein GAN (WGAN)                                               |
-|                 |                                 | Generative Adversarial Networks (GAN)                                |
-|                 |                                 | Conditiona GAN (cGAN)                                                |
-| Others          | Probabilistic Graphical Models  | Bayesian Belief Networks (BBN)                                       |
-
+Adaptado de: https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
 
 [Volta ao início](#aprendizado-de-maquina)
 
