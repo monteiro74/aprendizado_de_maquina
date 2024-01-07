@@ -8,7 +8,8 @@ Objetivos:
 Pequenos exemplos para uso da linguagem python em sala de aula.
 Exemplos que podem ser citados e comentados nas disciplinas que necessitam do apoio
 de uma linguagem de programação.
-Caso queira testar alguns exemplos fornecidos é necessário ter uma IDE instalada.
+Caso queira testar alguns exemplos fornecidos é necessário ter uma IDE instalada (nesse caso
+sugeris consultar a lista de ferramentas: https://github.com/monteiro74/lista_de_ferramentas).
 Este material é extremamente resumido e supõe que o leitor tem conhecimento básico
 de programação, estatística e/ou pelo menos português estruturado.
 ```
@@ -20,8 +21,8 @@ e projeto de sistemas.
 2. Este material foi ou poderá ser usado em sala de aula/laboratório/EAD.
 3. Os exemplos estão em python 3.
 4. Esta página poderá passar por atualizações sem aviso prévio.
-5. Se houver necessidade do uso de outras ferramentas de desenvolvimento 
-de software além de python, consulte a lista de ferramentas:
+5. Se houver necessidade do uso de outras ferramentas de desenvolvimento de software além de 
+python, consulte a lista de ferramentas:
 https://github.com/monteiro74/lista_de_ferramentas
 ```
 
