@@ -349,9 +349,8 @@ plt.show()
 ```
 
 
-````
-Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
-````
+Fonte: Adaptando do exemplo de: https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/
+
 
 [Volta ao início](#aprendizado-de-maquina)
 
@@ -442,15 +441,13 @@ https://www.javatpoint.com/regression-analysis-in-machine-learning
 
 É uma variação do Support Vector Machine que implementa regressão linear e não linear. Objetivando encontrar uma função para prever o valor de saída de um dado valor de entrada.  Podendo ser usado para predição de séries temporais. 
 
-```
+
 O exemplo abaixo esta disponível em:
 https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html#sphx-glr-auto-examples-svm-plot-svm-regression-py
-```
 
-Traduzindo o exemplo:
-```
-"Exemplo de brinquedo de regressão 1D usando kernels lineares, polinomiais e RBF".
-```
+
+Traduzindo o exemplo: "Exemplo de brinquedo de regressão 1D usando kernels lineares, polinomiais e RBF".
+
 
 Exemplo em python
 
@@ -533,7 +530,7 @@ Este algoritmo pode ser usado tanto para classificação como regressão.
 ```python
 # -*- coding: utf-8 -*-
 """
-Fonte: https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols_ridge_variance.html#sphx-glr-auto-examples-linear-model-plot-ols-ridge-variance-py
+@author: https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols_ridge_variance.html#sphx-glr-auto-examples-linear-model-plot-ols-ridge-variance-py
 """
 
 import matplotlib.pyplot as plt
