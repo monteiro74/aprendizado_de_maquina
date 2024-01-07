@@ -6,10 +6,8 @@ Compilado de material sobre aprendizado de maquina.
 
 Objetivos:
 ``` 
->> Reunir conceitos e exemplos de aprendizado de máquina para serem usados
- em sala de aula.
->> Quando possível utilizar exemplos na linguagem python ou apontar
- referências externas.
+>> Reunir conceitos e exemplos de aprendizado de máquina para serem usados em sala de aula.
+>> Quando possível utilizar exemplos na linguagem python ou outras referências externas.
 ```
 
 Observações:
