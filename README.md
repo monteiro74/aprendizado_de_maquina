@@ -128,66 +128,220 @@ ds = pd.read_csv('dataset.csv')
 | 6 | Supervised | Classification | Adaptative Boosting (AdaBoosting) |
 | 7 | Supervised | Classification | Random Forest Classification |
 | 8 | Supervised | Classification | Decision Tree Classification (CART) |
-| 9 | Supervised | Classification | Support Vector Machines (SVM) |
-| 10 | Supervised | Classification | Similarity Learning  |
-| 11 | Supervised | Regression | Linear Regression  |
-| 12 | Supervised | Regression | Polinomial Regression |
-| 13 | Supervised | Regression | Logistic Regression |
-| 14 | Supervised | Regression | K-Nearest Neighbors Regression (KNN) |
-| 15 | Supervised | Regression | Randon Forest Regression |
-| 16 | Supervised | Regression | Decision Tree Regression (CART) |
-| 17 | Supervised | Regression | Support Vector Regressions (SVR) |
-| 18 | Supervised | Regression | Locally Weighted Scatterplot Smoothing (LOWESS) |
-| 19 | Supervised | Regression | Multivariate Adaptative Regression Splines (MARS) |
-| 20 | Supervised | Regression | Back propagation neural network classification (BPNN) |
-| 21 | Supervised | Regression | Ordinary Least Squares Regression (OLSR) |
-| 22 | Supervised | Regression | Locally Estimated Scatterplot Smoothing (LOESS) |
-| 23 | Supervised | Dimensionality Reduction  | Linear Discriminant Analysis (LDA) |
-| 24 | Unsupervised | Association | Apriori |
-| 25 | Unsupervised | Association | Association Rule |
-| 26 | Unsupervised | Association | FP-Growth |
-| 27 | Unsupervised | Association | Principle Component Analysis |
-| 28 | Unsupervised | Association | Singular Value Decomposition |
-| 29 | Unsupervised | Clustering | K-MEANS |
-| 30 | Unsupervised | Clustering | Anomaly Detection |
-| 31 | Unsupervised | Clustering | Gaussian Mixture Models (GMM) |
-| 32 | Unsupervised | Clustering | Hierarchical Aglomerative Clustering (HAC) |
-| 33 | Unsupervised | Clustering | Hierarchical Divisive Clustering |
-| 34 | Unsupervised | Clustering | Density-based Spatial Clustering of Applications with Noise (DBSCAN) |
-| 35 | Unsupervised | Dimensionality Reduction | Locally Linear Embeding (LLE) |
-| 36 | Unsupervised | Dimensionality Reduction | t-Distributed Stochastic Nighbor Embedding (b-SNE) |
-| 37 | Unsupervised | Dimensionality Reduction | Isomap Embedding |
-| 38 | Unsupervised | Dimensionality Reduction | Multidimensional Scaling (MDS) |
-| 39 | Unsupervised | Dimensionality Reduction | Principal Component Analysis (PCA) |
-| 40 | Unsupervised | Dimensionality Reduction | Uniform Manifold Approximation and Projection (UMAP) |
-| 41 | Reinforcement | Policy-based methods | Proximal Policy Optimization (PPO) |
-| 42 | Reinforcement | Policy-based methods | Policy Gradient Methods |
-| 43 | Reinforcement | Policy-based methods | Markov Decision Process |
-| 44 | Reinforcement | Policy-based methods | Bellman Equation |
-| 45 | Reinforcement | Policy-based methods | Dynamic Programming |
-| 46 | Reinforcement | Value-based methods  | Deep Q Neural Network (DQN) |
-| 47 | Reinforcement | Value-based methods  | State-Action-Rewards-State-Action (SARSA) |
-| 48 | Reinforcement | Value-based methods  | Q-Learning |
-| 49 | Semi supervised | Label propagation | |
-| 50 | Semi supervised | Label spreading | |
-| 51 | Semi supervised | Self training classifier | |
-| 52 | Neural networks | Auto encoders | Sparse Auto Encoder (SAE)  |
-| 53 | Neural networks | Auto encoders | Denoising Auto Encoder (DAE) |
-| 54 | Neural networks | Auto encoders | Variational auto Encoder (VAE)  |
-| 55 | Neural networks | Auto encoders | Undercomplete Auto Encoder (AE)  |
-| 56 | Neural networks | Recurrent Neural Networks | Long Short Term memory (LSTM)   |
-| 57 | Neural networks | Recurrent Neural Networks | Recurrent Neural Network (RNN)  |
-| 58 | Neural networks | Recurrent Neural Networks | Gated Reccurent Unit (GRU) |
-| 59 | Neural networks | Feed Fordward Neural Networks | Feed Forward (FF)  |
-| 60 | Neural networks | Feed Fordward Neural Networks | Deep Feed Forward (DFF) |
-| 61 | Neural networks | Convolutional Neural Networks | Transposed Convolutional Network |
-| 62 | Neural networks | Convolutional Neural Networks | Deep Convolutional Network (DCN) |
-| 63 | Neural networks | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN) |
-| 64 | Neural networks | Generative Adversarial Networks | Cycle GAN |
-| 65 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
-| 66 | Neural networks | Generative Adversarial Networks | Generative Adversarial Networks (GAN)|
-| 67 | Neural networks | Generative Adversarial Networks | Conditional GAN (cGAN) |
-| 68 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
+| 9 | Supervised | Classification | Máquinas de Aprendizado Extremo (ELM) |
+| 10 | Supervised | Classification | Perceptron |
+| 11 | Supervised | Classification | Classificação quadrática |
+| 12 | Supervised | Classification | Classificadores Bayesianos Generalizados (GBM) |
+| 13 | Supervised | Classification | Classificadores Baseados em Instância |
+| 14 | Supervised | Classification | Classificadores Genéticos |
+| 15 | Supervised | Classification | Support Vector Machines (SVM) |
+| 16 | Supervised | Classification | Similarity Learning  |
+| 17 | Supervised | Regression | Linear Regression  |
+| 18 | Supervised | Regression | K-Nearest Neighbors Regression (KNN) |
+| 19 | Supervised | Regression | Randon Forest Regression |
+| 20 | Supervised | Regression | Decision Tree Regression (CART) |
+| 21 | Supervised | Regression | Support Vector Regressions (SVR) |
+| 22 | Supervised | Regression | Locally Weighted Scatterplot Smoothing (LOWESS) |
+| 23 | Supervised | Regression | Regressão Ridge |
+| 24 | Supervised | Regression | Regressão Lasso |
+| 25 | Supervised | Regression | Regressão Elastic Net |
+| 26 | Supervised | Regression | Regressão de Poisson |
+| 27 | Supervised | Regression | Regressão de Huber |
+| 28 | Supervised | Regression | Regressão dos Mínimos Quadrados Parciais (PLS) |
+| 29 | Supervised | Regression | Regressão Beta |
+| 30 | Supervised | Regression | Regressão Quantílica |
+| 31 | Supervised | Regression | Regressão Polinomial |
+| 32 | Supervised | Regression | Regressão de Mínimos Quadrados Penalizados |
+| 33 | Supervised | Regression | Multivariate Adaptative Regression Splines (MARS) |
+| 34 | Supervised | Dimensionality Reduction | Linear Discriminant Analysis (LDA) |
+| 35 | Unsupervised | Association | Apriori | 
+| 36 | Unsupervised | Association | Algoritmo FARM (Mineração de Regras de Associação Flexíveis) |
+| 37 | Unsupervised | Association | Algoritmo Baseado em Borda (Border Min) |
+| 38 | Unsupervised | Association | Algoritmo CPAR (Mineração de Regras de Associação Condicional Compacta) |
+| 39 | Unsupervised | Association | Algoritmo de Mineração de Regras de Associação Sequencial (SARMA) |
+| 40 | Unsupervised | Association | Algoritmo de Mineração de Associação de Top-K |
+| 41 | Unsupervised | Association | Algoritmo de Mineração de Associação por Histograma (MBA-Histogram) |
+| 42 | Unsupervised | Association | MINEpi (Mineração de Associação Epidemiológica) |
+| 43 | Unsupervised | Association | Algoritmo E-RMiner |
+| 44 | Unsupervised | Association | FP-Growth |
+| 45 | Unsupervised | Association | Eclat |
+| 46 | Unsupervised | Association | Algoritmo de Agrupamento de Estilo de Vida (LCA - Lifestyle Clustering Algorithm) |
+| 47 | Unsupervised | Association | C-MAR (Mineração de Regras de Associação Condicional) |
+| 48 | Unsupervised | Association | Algoritmo de Mineração de Associação por Consolidação de Conhecimento (CARMAC) |
+| 49 | Unsupervised | Clustering | K-MEANS |
+| 50 | Unsupervised | Clustering | Gaussian Mixture Models (GMM) |
+| 51 | Unsupervised | Clustering | Hierarchical Aglomerative Clustering (HAC) |
+| 52 | Unsupervised | Clustering | Density-based Spatial Clustering of Applications with Noise (DBSCAN) |
+| 53 | Unsupervised | Clustering | Mean Shift |
+| 54 | Unsupervised | Clustering | Agglomerative Clustering |
+| 55 | Unsupervised | Clustering | OPTICS (Ordering Points To Identify Clustering Structure) |
+| 56 | Unsupervised | Clustering | Spectral Clustering |
+| 57 | Unsupervised | Clustering | BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) |
+| 58 | Unsupervised | Clustering | K-Means++ |
+| 59 | Unsupervised | Clustering | Affinity Propagation |
+| 60 | Unsupervised | Clustering | C-Means (Fuzzy Clustering) |
+| 61 | Unsupervised | Clustering | CLARANS (Clustering Large Applications based on RANdomized Search) |
+| 62 | Unsupervised | Clustering | Fuzzy C-Means |
+| 63 | Unsupervised | Clustering | Self-Organizing Maps (SOM) |
+| 64 | Unsupervised | Dimensionality Reduction | Locally Linear Embeding (LLE) |
+| 65 | Unsupervised | Dimensionality Reduction | t-Distributed Stochastic Nighbor Embedding (b-SNE) |
+| 66 | Unsupervised | Dimensionality Reduction | Isomap Embedding |
+| 67 | Unsupervised | Dimensionality Reduction | Isomap (Isometric Mapping) |
+| 68 | Unsupervised | Dimensionality Reduction | Multidimensional Scaling (MDS) |
+| 69 | Unsupervised | Dimensionality Reduction | Principal Component Analysis (PCA) |
+| 70 | Unsupervised | Dimensionality Reduction | Uniform Manifold Approximation and Projection (UMAP) |
+| 71 | Unsupervised | Dimensionality Reduction | Autoencoders |
+| 72 | Unsupervised | Dimensionality Reduction | Linear Discriminant Analysis (LDA) |
+| 73 | Unsupervised | Dimensionality Reduction | Kernel PCA |
+| 74 | Unsupervised | Dimensionality Reduction | Locally Linear Embedding (LLE) | 
+| 75 | Unsupervised | Dimensionality Reduction | Sparse Principal Component Analysis (Sparse PCA)|
+| 76 | Unsupervised | Dimensionality Reduction | Independent Component Analysis (ICA) |
+| 77 | Unsupervised | Dimensionality Reduction | Factor Analysis |
+| 78 | Unsupervised | Dimensionality Reduction | Non-Negative Matrix Factorization (NMF) |
+| 79 | Unsupervised | Dimensionality Reduction | Curse of Dimensionality Reduction (CoDReD) |
+| 80 | Unsupervised | Dimensionality Reduction | Principal Curves |
+| 81 | Unsupervised | Dimensionality Reduction | Linear Autoencoder |
+| 82 | Reinforcement | Policy-based methods | Proximal Policy Optimization (PPO) |
+| 83 | Reinforcement | Policy-based methods | Deep Deterministic Policy Gradient (DDPG) |
+| 84 | Reinforcement | Policy-based methods | Policy Gradient (Reinforce) |
+| 85 | Reinforcement | Policy-based methods | Twin Delayed DDPG (TD3) |
+| 86 | Reinforcement | Policy-based methods | Actor-Critic Methods |
+| 87 | Reinforcement | Policy-based methods | Soft Actor-Critic (SAC) |
+| 88 | Reinforcement | Policy-based methods | Deep Q-Network (DQN) |
+| 89 | Reinforcement | Policy-based methods | Double DQN (DDQN) |
+| 90 | Reinforcement | Policy-based methods | Hindsight Experience Replay (HER) |
+| 91 | Reinforcement | Policy-based methods | C51 (Categorical DQN) |
+| 92 | Reinforcement | Policy-based methods | Policy Iteration (PI) |
+| 93 | Reinforcement | Policy-based methods | Q-Learning |
+| 94 | Reinforcement | Policy-based methods | Monte Carlo Methods |
+| 95 | Reinforcement | Policy-based methods | Upper Confidence Bound (UCB) for Reinforcement Learning |
+| 96 | Reinforcement | Policy-based methods | Deep Q-Learning from Demonstrations (DQfD) |
+| 97 | Reinforcement | Policy-based methods | Stochastic Policy Optimization with Path Integrals (TRPO-SN) |
+| 98 | Reinforcement | Value-based methods  | Deep Q Neural Network (DQN) |
+| 99 | Reinforcement | Value-based methods  | State-Action-Rewards-State-Action (SARSA) |
+| 100 | Reinforcement | Value-based methods  | Double DQN (DDQN) |
+| 101 | Reinforcement | Value-based methods  | Dueling DQN |
+| 102 | Reinforcement | Value-based methods  | Q-Learning |
+| 103 | Reinforcement | Value-based methods  | A3C (Asynchronous Advantage Actor-Critic) |
+| 104 | Reinforcement | Value-based methods  | C51 (Categorical DQN) |
+| 105 | Reinforcement | Value-based methods  | QR-DQN (Quantile Regression DQN) |
+| 106 | Reinforcement | Value-based methods  | Rainbow |
+| 107 | Reinforcement | Value-based methods  | Policy Iteration (PI) |
+| 108 | Reinforcement | Value-based methods  | Upper Confidence Bound (UCB) for Reinforcement Learning |
+| 109 | Reinforcement | Value-based methods  | Deep Deterministic Policy Gradient (DDPG) |
+| 110 | Reinforcement | Value-based methods  | TRPO (Trust Region Policy Optimization) |
+| 111 | Reinforcement | Value-based methods  | PPO (Proximal Policy Optimization) |
+| 112 | Reinforcement | Value-based methods  | MADDPG (Multi-Agent Deep Deterministic Policy Gradients) |
+| 113 | Semi supervised | Label propagation | |
+| 114 | Semi supervised | Label spreading | |
+| 115 | Semi supervised | Self training classifier | |
+| 116 | Semi supervised | Co-Training ||
+| 117 | Semi supervised | Multi-View Learning ||
+| 118 | Semi supervised | Tri-Training ||
+| 119 | Semi supervised | Spectral Clustering  ||
+| 120 | Semi supervised | Generative Adversarial Networks (GANs) ||
+| 121 | Semi supervised | VAT (Virtual Adversarial Training) ||
+| 122 | Semi supervised | Pseudo-Labeling ||
+| 123 | Semi supervised | Mean Teacher ||
+| 124 | Semi supervised | MentorNet ||
+| 125 | Semi supervised | SSL with Graph Neural Networks ||
+| 126 | Semi supervised | FixMatch ||
+| 127 | Semi supervised | Semi-Supervised SVM (S3VM) ||
+| 128 | Semi supervised | Deep Co-Training ||
+| 129 | Neural networks | Auto encoders | Sparse Auto Encoder (SAE)  |
+| 130 | Neural networks | Auto encoders | Denoising Auto Encoder (DAE) |
+| 131 | Neural networks | Auto encoders | Variational auto Encoder (VAE)  |
+| 132 | Neural networks | Auto encoders | Undercomplete Auto Encoder (AE)  |
+| 133 | Neural networks | Auto encoders | Vanilla Autoencoder |
+| 134 | Neural networks | Auto encoders | Contractive Autoencoder |
+| 135 | Neural networks | Auto encoders | Stacked Autoencoders |
+| 136 | Neural networks | Auto encoders | Adversarial Autoencoder (AAE) |
+| 137 | Neural networks | Auto encoders | Conditional Variational Autoencoder (CVAE) |
+| 138 | Neural networks | Auto encoders | Sequence-to-Sequence Autoencoder |
+| 139 | Neural networks | Auto encoders | Variational Recurrent Autoencoder (VRAE) |
+| 140 | Neural networks | Auto encoders | Helical Autoencoder |
+| 141 | Neural networks | Auto encoders | Factored Variational Autoencoder (FVAE) |
+| 142 | Neural networks | Auto encoders | Sparse Variational Autoencoder (SparseVAE) |
+| 143 | Neural networks | Auto encoders | Bayesian Variational Autoencoder (BVAE) |
+| 144 | Neural networks | Auto encoders | Sliced Wasserstein Autoencoder (SWAE) |
+| 145 | Neural networks | Recurrent Neural Networks | Long Short Term memory (LSTM)   |
+| 146 | Neural networks | Recurrent Neural Networks | Recurrent Neural Network (RNN)  |
+| 147 | Neural networks | Recurrent Neural Networks | Recurrent Independent Mechanisms (RIM) |
+| 148 | Neural networks | Recurrent Neural Networks | Gated Reccurent Unit (GRU) |
+| 149 | Neural networks | Recurrent Neural Networks | Vanilla RNN (Recurrent Neural Network) |
+| 150 | Neural networks | Recurrent Neural Networks | Bidirectional RNN |
+| 151 | Neural networks | Recurrent Neural Networks | Echo State Network (ESN) |
+| 152 | Neural networks | Recurrent Neural Networks | Attention Mechanism |
+| 153 | Neural networks | Recurrent Neural Networks | Neural Turing Machine (NTM) |
+| 154 | Neural networks | Recurrent Neural Networks | Clockwork RNN |
+| 155 | Neural networks | Recurrent Neural Networks | Reservoir Computing |
+| 156 | Neural networks | Recurrent Neural Networks | Hierarchical RNN |
+| 157 | Neural networks | Recurrent Neural Networks | Sparse Temporal Gating |
+| 158 | Neural networks | Recurrent Neural Networks | Dilated RNN |
+| 159 | Neural networks | Recurrent Neural Networks | Grid LSTM |
+| 160 | Neural networks | Recurrent Neural Networks | Clockwork Highway Networks |
+| 161 | Neural networks | Feed Fordward Neural Networks | Feed Forward (FF)  |
+| 162 | Neural networks | Feed Fordward Neural Networks | Deep Feed Forward (DFF) |
+| 163 | Neural networks | Feed Fordward Neural Networks | Multilayer Perceptron (MLP) |
+| 164 | Neural networks | Feed Fordward Neural Networks | Backpropagation |
+| 165 | Neural networks | Feed Fordward Neural Networks | Batch Normalization |
+| 166 | Neural networks | Feed Fordward Neural Networks | Dropout |
+| 167 | Neural networks | Feed Fordward Neural Networks | Weight Initialization Techniques |
+| 168 | Neural networks | Feed Fordward Neural Networks | Rectified Linear Unit (ReLU) |
+| 169 | Neural networks | Feed Fordward Neural Networks | Sigmoid Activation Function |
+| 170 | Neural networks | Feed Fordward Neural Networks | Hyperbolic Tangent (Tanh) Activation Function |
+| 171 | Neural networks | Feed Fordward Neural Networks | Exponential Linear Unit (ELU) |
+| 172 | Neural networks | Feed Fordward Neural Networks | Scaled Exponential Linear Unit (SELU) |
+| 173 | Neural networks | Feed Fordward Neural Networks | Swish Activation Function |
+| 174 | Neural networks | Feed Fordward Neural Networks | Adaptive Learning Rate Methods |
+| 175 | Neural networks | Feed Fordward Neural Networks | Residual Networks (ResNet) |
+| 176 | Neural networks | Feed Fordward Neural Networks | Inception Networks (GoogLeNet) |
+| 177 | Neural networks | Feed Fordward Neural Networks | Batch Size and Learning Rate Tuning |
+| 178 | Neural networks | Feed Fordward Neural Networks | Self-Organizing Maps (SOM) |
+| 179 | Neural networks | Convolutional Neural Networks | Transposed Convolutional Network |
+| 180 | Neural networks | Convolutional Neural Networks | Deep Convolutional Network (DCN) |
+| 181 | Neural networks | Convolutional Neural Networks | LeNet-5 |
+| 182 | Neural networks | Convolutional Neural Networks | AlexNet |
+| 183 | Neural networks | Convolutional Neural Networks | VGGNet |
+| 184 | Neural networks | Convolutional Neural Networks | GoogLeNet (Inception) |
+| 185 | Neural networks | Convolutional Neural Networks | ResNet (Residual Network) |
+| 186 | Neural networks | Convolutional Neural Networks | DenseNet (Densely Connected Convolutional Networks) |
+| 187 | Neural networks | Convolutional Neural Networks | MobileNet |
+| 188 | Neural networks | Convolutional Neural Networks | ShuffleNet |
+| 189 | Neural networks | Convolutional Neural Networks | Xception (Extreme Inception) |
+| 190 | Neural networks | Convolutional Neural Networks | Capsule Networks (CapsNets) |
+| 191 | Neural networks | Convolutional Neural Networks | SqueezeNet |
+| 192 | Neural networks | Convolutional Neural Networks | SENet (Squeeze-and-Excitation Networks) |
+| 193 | Neural networks | Convolutional Neural Networks | PNASNet (Progressive Neural Architecture Search) |
+| 194 | Neural networks | Convolutional Neural Networks | EfficientNet |
+| 195 | Neural networks | Convolutional Neural Networks | Capsule Routing by Agreement (Dynamic Routing Between Capsules) |
+| 196 | Neural networks | Convolutional Neural Networks | GCN (Global Context Network) |
+| 197 | Neural networks | Convolutional Neural Networks | Spatial Transformer Networks (STN) |
+| 198 | Neural networks | Convolutional Neural Networks | PointNet |
+| 199 | Neural networks | Convolutional Neural Networks | DeepLab |
+| 200 | Neural networks | Convolutional Neural Networks | YOLO (You Only Look Once) |
+| 201 | Neural networks | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN) |
+| 202 | Neural networks | Generative Adversarial Networks | Cycle GAN |
+| 203 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
+| 204 | Neural networks | Generative Adversarial Networks | WGAN-GP (Wasserstein GAN with Gradient Penalty) |
+| 205 | Neural networks | Generative Adversarial Networks | Generative Adversarial Networks (GAN)|
+| 206 | Neural networks | Generative Adversarial Networks | Conditional GAN (cGAN) |
+| 207 | Neural networks | Generative Adversarial Networks | Original GAN (Goodfellow et al.) |
+| 208 | Neural networks | Generative Adversarial Networks | InfoGAN |
+| 209 | Neural networks | Generative Adversarial Networks | Pix2Pix |
+| 210 | Neural networks | Generative Adversarial Networks | StarGAN |
+| 211 | Neural networks | Generative Adversarial Networks | StyleGAN |
+| 212 | Neural networks | Generative Adversarial Networks | StyleGAN2 |
+| 213 | Neural networks | Generative Adversarial Networks | BigGAN |
+| 214 | Neural networks | Generative Adversarial Networks | Progressive GAN |
+| 215 | Neural networks | Generative Adversarial Networks | Self-Attention GAN (SAGAN) |
+| 216 | Neural networks | Generative Adversarial Networks | BEGAN (Boundary Equilibrium GAN) |
+| 217 | Neural networks | Generative Adversarial Networks | AC-GAN (Auxiliary Classifier GAN) |
+| 218 | Neural networks | Generative Adversarial Networks | LSGAN (Least Squares GAN) |
+| 219 | Neural networks | Generative Adversarial Networks | VAE-GAN (Variational Autoencoder GAN) |
+| 220 | Neural networks | Generative Adversarial Networks | ALI (Adversarially Learned Inference) |
+| 221 | Neural networks | Generative Adversarial Networks | SN-GAN (Spectral Normalization GAN) |
+| 222 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
 
 Adaptado de: https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
 
