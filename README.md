@@ -405,6 +405,21 @@ Alguns exemplos de algoritmos usados para reconhecimento de imagens:
 
 ## 1.5. Algoritmos para reconhecimento de faces
 
+* ArcFace: Uma técnica de treinamento de rede neural que enfatiza a aprendizagem de representações discriminativas para faces.
+* DeepFace: Um modelo de aprendizado profundo desenvolvido pelo Facebook para reconhecimento facial, integrando redes neurais profundas.
+* DeepFaceLab: Uma ferramenta que utiliza redes GAN (Redes Generativas Adversárias) para realizar a troca de faces em vídeos.
+* DeepID: Uma arquitetura de rede neural profunda projetada especificamente para reconhecimento facial.
+* DeepID3: Uma versão avançada do DeepID com melhorias na capacidade de discriminação.
+* Dlib: Uma biblioteca que oferece ferramentas para detecção facial, bem como reconhecimento facial.
+* Eigenfaces: Um método clássico de reconhecimento facial que utiliza a técnica de Análise de Componentes Principais (PCA) para representar imagens faciais.
+* FaceNet: Um modelo de rede neural que aprende representações faciais invariantes à variação de pose, iluminação e expressão.
+* Fisherfaces: Similar ao método Eigenfaces, mas utiliza a técnica de Análise Discriminante Linear (LDA) para melhorar a separação entre classes.
+* InsightFace: Uma estrutura de rede neural projetada para enfrentar desafios específicos no reconhecimento facial, como variações de idade.
+* LBPH (Local Binary Pattern Histograms): Uma técnica eficaz para representar texturas locais na imagem facial.
+* MTCNN (Multi-task Cascaded Convolutional Networks): Uma rede neural para detecção de rosto, pontos-chave faciais e alinhamento facial.
+* OpenCV (Open Source Computer Vision): Uma biblioteca amplamente utilizada que fornece módulos para detecção e reconhecimento facial.
+* VGG-Face: Um modelo baseado na arquitetura VGGNet, treinado especificamente para tarefas de reconhecimento facial.
+* Viola-Jones Face Detection: Um algoritmo de detecção de rosto baseado em características Haar que é eficiente e rápido.
 
 
 ---
