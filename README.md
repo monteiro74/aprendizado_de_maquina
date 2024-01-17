@@ -35,6 +35,7 @@ de programação, estatística e/ou pelo menos português estruturado.
   - [1.2.  O aprendizado de máquina esta dividido em grandes áreas](#12--o-aprendizado-de-máquina-esta-dividido-em-grandes-áreas)
   - [1.3. Exemplos de alguns algoritmos](#13-exemplos-de-alguns-algoritmos)
   - [1.4. Reconhecimento de padrões em imagens](#14-reconhecimento-de-padrões-em-imagens)
+  - [1.5. Algoritmos para reconhecimento de faces](#15-algoritmos-para-reconhecimento-de-faces)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
@@ -366,41 +367,43 @@ Adaptado de: https://towardsdatascience.com/lowess-regression-in-python-how-to-d
 
 Alguns exemplos de algoritmos usados para reconhecimento de imagens:
 
-| Algortimo | Descrição |
-| --- |--- |
-| AdaBoost | Algoritmo de aprendizado de máquina que combina classificadores mais fracos para formar um classificador forte, frequentemente usado em detecção de objetos.|
-|Bag of Visual Words (BoVW) | Método que representa uma imagem por meio de um histograma de palavras visuais, utilizado em tarefas como reconhecimento de objetos.|
-|Canny Edge Detector | Algoritmo clássico para detecção de bordas em imagens, realçando transições abruptas de intensidade. 
-|Chamfer Matching | Técnica de correspondência de formas baseada na minimização de distâncias entre contornos de objetos. |
-|Convolutional Neural Networks (CNN) | Redes neurais projetadas para processar dados em grades, especialmente eficazes em tarefas de visão computacional. |
-|Decision Trees (Árvores de Decisão) | Estrutura de árvore que toma decisões com base em testes nas características dos dados. |
-|Deep Belief Networks (DBN) | Modelo de rede neural que combina camadas visíveis e ocultas para aprender representações hierárquicas de dados. |
-|Deep Residual Networks (ResNet) | Arquitetura de rede neural profunda que utiliza blocos residuais para treinar redes mais profundas com maior eficácia. |
-|Deformable Part Models (DPM) | Modelo de objeto que representa objetos como coleções de partes deformáveis, usado em detecção de objetos. |
-|Edge Boxes | Método eficiente para geração de caixas delimitadoras em torno de regiões de interesse em imagens. |
-|Faster R-CNN | Estrutura de rede neural para detecção de objetos que utiliza regiões de interesse (RoI) para melhorar a eficiência. |
-|Fisher Vector Encoding | Método de representação de imagens baseado em estatísticas de gradientes, amplamente usado em reconhecimento de objetos. |
-|Gabor Filters | Filtros usados para extrair características texturais de imagens. |
-|Haar Cascades | Técnica usada para detecção de objetos em imagens, frequentemente empregada em detecção facial. |
-|Histogram Backprojection| Técnica de correspondência de histograma usada para segmentação de objetos em imagens. |
-|Histogram of Oriented Gradients (HOG)| Técnica que calcula a distribuição de gradientes nas imagens, frequentemente usada em detecção de objetos. |
-|Inception (GoogLeNet) | Arquitetura de rede neural profunda conhecida por seu uso eficiente de computação e desempenho em tarefas de classificação de imagens. |
-|K-Nearest Neighbors (K-NN) | Algoritmo de classificação baseado na proximidade de instâncias vizinhas no espaço de características. |
-|Local Binary Patterns (LBP)| Descritor que codifica padrões locais de textura em imagens, utilizado em tarefas como reconhecimento facial. |
-|Mask R-CNN | Extensão do Faster R-CNN que inclui uma camada adicional para segmentação semântica. |
-|Mean-Shift Clustering | Algoritmo de agrupamento usado em segmentação de imagens, baseado na convergência para modas locais de densidade. |
-|ORB (Oriented FAST and Rotated BRIEF)| Algoritmo de detecção e descrição de características usado para correspondência de pontos-chave em imagens. |
-|Principal Component Analysis (PCA) | Algoritmo de redução de dimensionalidade que busca os componentes principais nos dados. |
-|Random Forests | Conjunto de árvores de decisão que trabalham em conjunto para melhorar a precisão e robustez. |
-|ResNet (Redes Residuais) | Arquitetura de rede neural que introduz blocos residuais para superar o problema de desvanecimento do gradiente em redes profundas. |
-|Scale-Invariant Feature Transform (SIFT) | Algoritmo robusto para detecção de pontos-chave e descrição de características, invariante à escala e rotação. |
-|Siamese Networks | Redes neurais que aprendem a medir a similaridade entre duas imagens, com aplicações em verificação facial e rastreamento de objetos. |
-|Spatial Transformer Networks (STN) | Módulo de rede neural que permite a transformação espacial adaptativa de imagens, útil em tarefas de variação de pose. |
-|Support Vector Machines (SVM) | Algoritmo de aprendizado supervisionado usado para classificação e regressão, eficaz para separar dados em classes. |
-|SURF (Speeded Up Robust Features) | Algoritmo de detecção e descrição de características usado para localizar pontos de interesse em imagens. |
-|t-SNE (t-Distributed Stochastic Neighbor Embedding) | Algoritmo de redução de dimensionalidade não linear usado para visualização e clusterização de dados. |
-|U-Net | Arquitetura de rede neural usada em segmentação semântica de imagens, especialmente em tarefas de processamento médico. |
-|YOLO (You Only Look Once) | Algoritmo de detecção de objetos que divide a imagem em grade e realiza detecção de objetos em uma única passagem. |
+| Id | Algortimo | Descrição |
+| --- | --- |--- |
+| 1 | AdaBoost | Algoritmo de aprendizado de máquina que combina classificadores mais fracos para formar um classificador forte, frequentemente usado em detecção de objetos.|
+| 2 |Bag of Visual Words (BoVW) | Método que representa uma imagem por meio de um histograma de palavras visuais, utilizado em tarefas como reconhecimento de objetos.|
+|3|Canny Edge Detector | Algoritmo clássico para detecção de bordas em imagens, realçando transições abruptas de intensidade. 
+|4|Chamfer Matching | Técnica de correspondência de formas baseada na minimização de distâncias entre contornos de objetos. |
+|5|Convolutional Neural Networks (CNN) | Redes neurais projetadas para processar dados em grades, especialmente eficazes em tarefas de visão computacional. |
+|6|Decision Trees (Árvores de Decisão) | Estrutura de árvore que toma decisões com base em testes nas características dos dados. |
+|7|Deep Belief Networks (DBN) | Modelo de rede neural que combina camadas visíveis e ocultas para aprender representações hierárquicas de dados. |
+|8|Deep Residual Networks (ResNet) | Arquitetura de rede neural profunda que utiliza blocos residuais para treinar redes mais profundas com maior eficácia. |
+|9|Deformable Part Models (DPM) | Modelo de objeto que representa objetos como coleções de partes deformáveis, usado em detecção de objetos. |
+|10|Edge Boxes | Método eficiente para geração de caixas delimitadoras em torno de regiões de interesse em imagens. |
+|11|Faster R-CNN | Estrutura de rede neural para detecção de objetos que utiliza regiões de interesse (RoI) para melhorar a eficiência. |
+|12|Fisher Vector Encoding | Método de representação de imagens baseado em estatísticas de gradientes, amplamente usado em reconhecimento de objetos. |
+|13|Gabor Filters | Filtros usados para extrair características texturais de imagens. |
+|14|Haar Cascades | Técnica usada para detecção de objetos em imagens, frequentemente empregada em detecção facial. |
+|15|Histogram Backprojection| Técnica de correspondência de histograma usada para segmentação de objetos em imagens. |
+|16|Histogram of Oriented Gradients (HOG)| Técnica que calcula a distribuição de gradientes nas imagens, frequentemente usada em detecção de objetos. |
+|17|Inception (GoogLeNet) | Arquitetura de rede neural profunda conhecida por seu uso eficiente de computação e desempenho em tarefas de classificação de imagens. |
+|18|K-Nearest Neighbors (K-NN) | Algoritmo de classificação baseado na proximidade de instâncias vizinhas no espaço de características. |
+|19|Local Binary Patterns (LBP)| Descritor que codifica padrões locais de textura em imagens, utilizado em tarefas como reconhecimento facial. |
+|20|Mask R-CNN | Extensão do Faster R-CNN que inclui uma camada adicional para segmentação semântica. |
+|21|Mean-Shift Clustering | Algoritmo de agrupamento usado em segmentação de imagens, baseado na convergência para modas locais de densidade. |
+|22|ORB (Oriented FAST and Rotated BRIEF)| Algoritmo de detecção e descrição de características usado para correspondência de pontos-chave em imagens. |
+|23|Principal Component Analysis (PCA) | Algoritmo de redução de dimensionalidade que busca os componentes principais nos dados. |
+|24|Random Forests | Conjunto de árvores de decisão que trabalham em conjunto para melhorar a precisão e robustez. |
+|25|ResNet (Redes Residuais) | Arquitetura de rede neural que introduz blocos residuais para superar o problema de desvanecimento do gradiente em redes profundas. |
+|26|Scale-Invariant Feature Transform (SIFT) | Algoritmo robusto para detecção de pontos-chave e descrição de características, invariante à escala e rotação. |
+|27|Siamese Networks | Redes neurais que aprendem a medir a similaridade entre duas imagens, com aplicações em verificação facial e rastreamento de objetos. |
+|28|Spatial Transformer Networks (STN) | Módulo de rede neural que permite a transformação espacial adaptativa de imagens, útil em tarefas de variação de pose. |
+|29|Support Vector Machines (SVM) | Algoritmo de aprendizado supervisionado usado para classificação e regressão, eficaz para separar dados em classes. |
+|30|SURF (Speeded Up Robust Features) | Algoritmo de detecção e descrição de características usado para localizar pontos de interesse em imagens. |
+|31|t-SNE (t-Distributed Stochastic Neighbor Embedding) | Algoritmo de redução de dimensionalidade não linear usado para visualização e clusterização de dados. |
+|32|U-Net | Arquitetura de rede neural usada em segmentação semântica de imagens, especialmente em tarefas de processamento médico. |
+|33|YOLO (You Only Look Once) | Algoritmo de detecção de objetos que divide a imagem em grade e realiza detecção de objetos em uma única passagem. |
+
+## 1.5. Algoritmos para reconhecimento de faces
 
 
 
