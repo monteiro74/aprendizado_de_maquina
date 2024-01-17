@@ -130,6 +130,7 @@ ds = pd.read_csv('dataset.csv')
 | Semi-supervised (Semi-supervisionado) | Algoritmos semi-supervisionados utilizam conjuntos de dados que contêm tanto exemplos rotulados quanto não rotulados. | A ideia é combinar o benefício do aprendizado supervisionado com a capacidade de generalização proporcionada pelos dados não rotulados, especialmente quando rotular grandes conjuntos de dados é caro ou demorado. |
 | Neural Networks (Redes Neurais) | As redes neurais são um modelo de aprendizado de máquina inspirado no funcionamento do cérebro humano. Consistem em camadas de unidades (neurônios) conectadas, com cada conexão atribuída a um peso. | Essas redes são capazes de aprender representações complexas e abstratas dos dados, sendo especialmente eficazes em tarefas como reconhecimento de padrões, processamento de linguagem natural e visão computacional. Deep Learning é frequentemente associado a redes neurais com várias camadas (redes neurais profundas). |
 
+Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
 
 ## 1.3. Exemplos de alguns algoritmos
 
@@ -358,7 +359,8 @@ ds = pd.read_csv('dataset.csv')
 | 221 | Neural networks | Generative Adversarial Networks | SN-GAN (Spectral Normalization GAN) |
 | 222 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
 
-Adaptado de: https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
+Fonte (adaptado de): https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
+Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
 
 [Volta ao início](#aprendizado-de-maquina)
 
@@ -403,6 +405,8 @@ Alguns exemplos de algoritmos usados para reconhecimento de imagens:
 |32|U-Net | Arquitetura de rede neural usada em segmentação semântica de imagens, especialmente em tarefas de processamento médico. |
 |33|YOLO (You Only Look Once) | Algoritmo de detecção de objetos que divide a imagem em grade e realiza detecção de objetos em uma única passagem. |
 
+Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
+
 ## 1.5. Algoritmos para reconhecimento de faces
 
 * ArcFace: Uma técnica de treinamento de rede neural que enfatiza a aprendizagem de representações discriminativas para faces.
@@ -421,6 +425,7 @@ Alguns exemplos de algoritmos usados para reconhecimento de imagens:
 * VGG-Face: Um modelo baseado na arquitetura VGGNet, treinado especificamente para tarefas de reconhecimento facial.
 * Viola-Jones Face Detection: Um algoritmo de detecção de rosto baseado em características Haar que é eficiente e rápido.
 
+Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
 
 ---
 # 2. Aprendizado de máquina supervisionado
