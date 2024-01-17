@@ -33,6 +33,7 @@ de programação, estatística e/ou pelo menos português estruturado.
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
   - [1.2.  O aprendizado de máquina esta dividido em grandes áreas](#12--o-aprendizado-de-máquina-esta-dividido-em-grandes-áreas)
+  - [1.3. Exemplos de alguns algoritmos](#13-exemplos-de-alguns-algoritmos)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
@@ -102,6 +103,7 @@ As sub etapas são:
 * Dividir o dataset em treinamento e teste
   
 
+Exemplo de importação de dados usando python:
 As bibliotecas no python são importadas assim:
 ```python
 import numpy as nm
@@ -117,6 +119,17 @@ ds = pd.read_csv('dataset.csv')
 
 ## 1.2.  O aprendizado de máquina esta dividido em grandes áreas
 
+
+| Categoria | Breve descrição | Objetivo |
+| --- | --- | --- |
+| Supervised (supervisionado) | Algoritmos supervisionados são treinados com um conjunto de dados rotulado, onde as entradas e as saídas desejadas já são conhecidas. | O objetivo é aprender a relação entre as entradas e as saídas, de modo que o modelo possa generalizar para novos dados não rotulados e fazer previsões ou classificações. |
+| Unsupervised (Não supervisionado) | Algoritmos não supervisionados são aplicados a conjuntos de dados sem rótulos. O sistema tenta aprender padrões e estruturas subjacentes nos dados por conta própria. | A principal finalidade é explorar a estrutura intrínseca dos dados, como agrupamentos (clustering) ou a redução de dimensionalidade. |
+| Reinforcement (Reforço) | Algoritmos de reforço envolvem um agente que toma ações em um ambiente para maximizar uma recompensa acumulada ao longo do tempo. | O agente aprende a associar ações com recompensas, aprendendo assim uma política de ação que otimiza seu desempenho no ambiente. |
+| Semi-supervised (Semi-supervisionado) | Algoritmos semi-supervisionados utilizam conjuntos de dados que contêm tanto exemplos rotulados quanto não rotulados. | A ideia é combinar o benefício do aprendizado supervisionado com a capacidade de generalização proporcionada pelos dados não rotulados, especialmente quando rotular grandes conjuntos de dados é caro ou demorado. |
+| Neural Networks (Redes Neurais) | As redes neurais são um modelo de aprendizado de máquina inspirado no funcionamento do cérebro humano. Consistem em camadas de unidades (neurônios) conectadas, com cada conexão atribuída a um peso. | Essas redes são capazes de aprender representações complexas e abstratas dos dados, sendo especialmente eficazes em tarefas como reconhecimento de padrões, processamento de linguagem natural e visão computacional. Deep Learning é frequentemente associado a redes neurais com várias camadas (redes neurais profundas). |
+
+
+## 1.3. Exemplos de alguns algoritmos
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
