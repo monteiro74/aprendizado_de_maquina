@@ -36,6 +36,8 @@ de programação, estatística e/ou pelo menos português estruturado.
   - [1.3. Exemplos de alguns algoritmos](#13-exemplos-de-alguns-algoritmos)
   - [1.4. Reconhecimento de padrões em imagens](#14-reconhecimento-de-padrões-em-imagens)
   - [1.5. Algoritmos para reconhecimento de faces](#15-algoritmos-para-reconhecimento-de-faces)
+  - [1.6. Algoritmos para reconhecimento de ruas](#16-algoritmos-para-reconhecimento-de-ruas)
+  - [1.7. Algortimos usados na agricultura](#17-algortimos-usados-na-agricultura)
 - [2. Aprendizado de máquina supervisionado](#2-aprendizado-de-máquina-supervisionado)
   - [2.1. As etapas envolvidas do aprendizado supervisionado](#21-as-etapas-envolvidas-do-aprendizado-supervisionado)
   - [2.2. Tipos de algoritmos de aprendizado supervisionado](#22-tipos-de-algoritmos-de-aprendizado-supervisionado)
@@ -407,6 +409,9 @@ Alguns exemplos de algoritmos usados para reconhecimento de imagens:
 
 Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
 
+[Volta ao início](#aprendizado-de-maquina)
+
+
 ## 1.5. Algoritmos para reconhecimento de faces
 
 * ArcFace: Uma técnica de treinamento de rede neural que enfatiza a aprendizagem de representações discriminativas para faces.
@@ -426,6 +431,30 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 * Viola-Jones Face Detection: Um algoritmo de detecção de rosto baseado em características Haar que é eficiente e rápido.
 
 Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
+
+[Volta ao início](#aprendizado-de-maquina)
+
+## 1.6. Algoritmos para reconhecimento de ruas
+
+* Canny Edge Detector: Útil para detectar bordas em imagens, o que pode ser aplicado para destacar as bordas das ruas.
+* Detecção de Linhas de Vanishing Point: Identifica as linhas que convergem para um ponto de fuga, o que é útil para estimar a geometria das ruas.
+* Detecção de Padrões de Tráfego: Algoritmos podem ser projetados para analisar padrões de tráfego, o que indiretamente ajuda na identificação e compreensão de vias urbanas.
+* Hough Transform: Pode ser aplicada para detecção de linhas em imagens, auxiliando na identificação das marcações de ruas.
+* Mapas Semânticos: Algoritmos podem ser treinados para criar mapas semânticos, identificando e categorizando diferentes elementos urbanos, incluindo ruas.
+* Processamento de Vídeo em Tempo Real: Algoritmos podem ser projetados para processar vídeos em tempo real, identificando características dinâmicas das ruas, como pedestres, veículos e fluxo de tráfego.
+* R-CNNs (Region-based Convolutional Neural Networks): Estruturas como Faster R-CNN podem ser utilizadas para detectar e delimitar objetos, incluindo elementos das ruas.
+* Redes Neurais Convolutivas (CNNs): Redes neurais convolutivas podem ser treinadas para reconhecer características específicas de ruas, como faixas, sinais de trânsito e meio-fios.
+* Segmentação de Cores: Técnicas de segmentação podem ser empregadas para identificar áreas de cores específicas associadas ao pavimento das ruas.
+* SLAM (Simultaneous Localization and Mapping): Técnicas SLAM são frequentemente aplicadas para mapear e localizar veículos em ambientes urbanos, o que envolve o reconhecimento e modelagem das ruas.
+* Transformada de Morfologia Matemática: Pode ser usada para processamento de imagem e operações de morfologia que ajudam na análise de formas e estruturas das ruas.
+
+Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
+
+[Volta ao início](#aprendizado-de-maquina)
+
+
+## 1.7. Algortimos usados na agricultura
+
 
 ---
 # 2. Aprendizado de máquina supervisionado
