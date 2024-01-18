@@ -34,11 +34,20 @@ de programação, estatística e/ou pelo menos português estruturado.
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
   - [1.2.  O aprendizado de máquina esta dividido em grandes áreas](#12--o-aprendizado-de-máquina-esta-dividido-em-grandes-áreas)
   - [1.3. Exemplos de alguns algoritmos](#13-exemplos-de-alguns-algoritmos)
-  - [1.3.1. Supervised](#131-supervised)
-    - [1.3.2. Unsupervised](#132-unsupervised)
-    - [1.3.3. Reinforcement](#133-reinforcement)
-    - [1.3.4. Semi supervised](#134-semi-supervised)
-    - [1.3.5. Neural network](#135-neural-network)
+  - [1.3.1. Supervised classification](#131-supervised-classification)
+  - [1.3.2. Supervised Regression](#132-supervised-regression)
+    - [1.3.3. Unsupervised Association](#133-unsupervised-association)
+  - [1.3.4. Unsupervised Clustering](#134-unsupervised-clustering)
+  - [1.3.5. Unsupervised Dimensionality Reduction](#135-unsupervised-dimensionality-reduction)
+    - [1.3.6. Reinforcement Policy-based methods](#136-reinforcement-policy-based-methods)
+    - [1.3.6. Reinforcement Value-based methods](#136-reinforcement-value-based-methods)
+    - [1.3.7. Semi supervised](#137-semi-supervised)
+    - [1.3.8. Neural network Auto encoders](#138-neural-network-auto-encoders)
+    - [1.3.9. Neural network Recurrent Neural Networks](#139-neural-network-recurrent-neural-networks)
+    - [1.3.10. Neural network Feed Fordward Neural Networks](#1310-neural-network-feed-fordward-neural-networks)
+    - [1.3.11. Neural network Convolutional Neural Networks](#1311-neural-network-convolutional-neural-networks)
+    - [1.3.12. Neural network Generative Adversarial Networks](#1312-neural-network-generative-adversarial-networks)
+    - [1.3.13. Others Probabilistic Graphical Models](#1313-others-probabilistic-graphical-models)
   - [1.4. Reconhecimento de padrões em imagens](#14-reconhecimento-de-padrões-em-imagens)
   - [1.5. Algoritmos para reconhecimento de faces](#15-algoritmos-para-reconhecimento-de-faces)
   - [1.6. Algoritmos para reconhecimento de ruas](#16-algoritmos-para-reconhecimento-de-ruas)
@@ -89,6 +98,7 @@ C[Modelo lógico] --> E[Saída]
 
 ```
 
+[Retornar ao Sumário](#sumário)
 
 
 ## 1.1. Etapas de um projeto de aprendizado de máquina
@@ -103,6 +113,8 @@ C[Modelo lógico] --> E[Saída]
 |6. Teste do modelo | Após o treinamento o modelo recebem um dataset de treinamento.  |
 |7. Implementação | O modelo é finalmente testado com dados do mundo real. |
    
+[Volta ao início](#aprendizado-de-maquina)
+
 
 ### 1.1.1. Organização e preparação de dados
 
@@ -128,6 +140,10 @@ Os dataset (ds) geralmente estão no formato CSV e podem ser lidos com o seguint
 ds = pd.read_csv('dataset.csv')
 ```
 
+[Volta ao início](#aprendizado-de-maquina)
+
+
+
 ## 1.2.  O aprendizado de máquina esta dividido em grandes áreas
 
 
@@ -141,10 +157,11 @@ ds = pd.read_csv('dataset.csv')
 
 Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. https://www.openai.com/research/gpt-3.
 
+[Volta ao início](#aprendizado-de-maquina)
+
 ## 1.3. Exemplos de alguns algoritmos
 
-## 1.3.1. Supervised
-
+## 1.3.1. Supervised classification
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -164,6 +181,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 14 | Supervised | Classification | Classificadores Genéticos |
 | 15 | Supervised | Classification | Support Vector Machines (SVM) |
 | 16 | Supervised | Classification | Similarity Learning  |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+## 1.3.2. Supervised Regression
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 17 | Supervised | Regression | Linear Regression  |
 | 18 | Supervised | Regression | K-Nearest Neighbors Regression (KNN) |
 | 19 | Supervised | Regression | Randon Forest Regression |
@@ -183,7 +207,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 33 | Supervised | Regression | Multivariate Adaptative Regression Splines (MARS) |
 | 34 | Supervised | Dimensionality Reduction | Linear Discriminant Analysis (LDA) |
 
-### 1.3.2. Unsupervised
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.3. Unsupervised Association
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -201,6 +227,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 46 | Unsupervised | Association | Algoritmo de Agrupamento de Estilo de Vida (LCA - Lifestyle Clustering Algorithm) |
 | 47 | Unsupervised | Association | C-MAR (Mineração de Regras de Associação Condicional) |
 | 48 | Unsupervised | Association | Algoritmo de Mineração de Associação por Consolidação de Conhecimento (CARMAC) |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+## 1.3.4. Unsupervised Clustering
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 49 | Unsupervised | Clustering | K-MEANS |
 | 50 | Unsupervised | Clustering | Gaussian Mixture Models (GMM) |
 | 51 | Unsupervised | Clustering | Hierarchical Aglomerative Clustering (HAC) |
@@ -217,6 +250,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 62 | Unsupervised | Clustering | Fuzzy C-Means |
 | 63 | Unsupervised | Clustering | Self-Organizing Maps (SOM) |
 | 64 | Unsupervised | Clustering | Local outlier factor |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+## 1.3.5. Unsupervised Dimensionality Reduction
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 65 | Unsupervised | Dimensionality Reduction | Locally Linear Embeding (LLE) |
 | 66 | Unsupervised | Dimensionality Reduction | t-Distributed Stochastic Nighbor Embedding (b-SNE) |
 | 67 | Unsupervised | Dimensionality Reduction | Isomap Embedding |
@@ -236,7 +276,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 81 | Unsupervised | Dimensionality Reduction | Principal Curves |
 | 82 | Unsupervised | Dimensionality Reduction | Linear Autoencoder |
 
-### 1.3.3. Reinforcement
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.6. Reinforcement Policy-based methods
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -256,6 +298,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 96 | Reinforcement | Policy-based methods | Upper Confidence Bound (UCB) for Reinforcement Learning |
 | 97 | Reinforcement | Policy-based methods | Deep Q-Learning from Demonstrations (DQfD) |
 | 98 | Reinforcement | Policy-based methods | Stochastic Policy Optimization with Path Integrals (TRPO-SN) |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.6. Reinforcement Value-based methods
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 99 | Reinforcement | Value-based methods  | Deep Q Neural Network (DQN) |
 | 100 | Reinforcement | Value-based methods  | State-Action-Rewards-State-Action (SARSA) |
 | 101 | Reinforcement | Value-based methods  | Double DQN (DDQN) |
@@ -272,7 +321,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 112 | Reinforcement | Value-based methods  | PPO (Proximal Policy Optimization) |
 | 113 | Reinforcement | Value-based methods  | MADDPG (Multi-Agent Deep Deterministic Policy Gradients) |
 
-### 1.3.4. Semi supervised
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.7. Semi supervised
 
 | Id | Categoria | Subcategoria/Algoritmo  | Algoritmo |
 | --- |--- | --- | --- |
@@ -293,8 +344,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 128 | Semi supervised | Semi-Supervised SVM (S3VM) ||
 | 129 | Semi supervised | Deep Co-Training ||
 
+[Volta ao início](#aprendizado-de-maquina)
 
-### 1.3.5. Neural network
+### 1.3.8. Neural network Auto encoders
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -314,6 +366,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 143 | Neural networks | Auto encoders | Sparse Variational Autoencoder (SparseVAE) |
 | 144 | Neural networks | Auto encoders | Bayesian Variational Autoencoder (BVAE) |
 | 145 | Neural networks | Auto encoders | Sliced Wasserstein Autoencoder (SWAE) |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.9. Neural network Recurrent Neural Networks
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 146 | Neural networks | Recurrent Neural Networks | Long Short Term memory (LSTM)   |
 | 147 | Neural networks | Recurrent Neural Networks | Recurrent Neural Network (RNN)  |
 | 148 | Neural networks | Recurrent Neural Networks | Recurrent Independent Mechanisms (RIM) |
@@ -330,6 +389,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 159 | Neural networks | Recurrent Neural Networks | Dilated RNN |
 | 160 | Neural networks | Recurrent Neural Networks | Grid LSTM |
 | 161 | Neural networks | Recurrent Neural Networks | Clockwork Highway Networks |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.10. Neural network Feed Fordward Neural Networks
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 162 | Neural networks | Feed Fordward Neural Networks | Feed Forward (FF)  |
 | 163 | Neural networks | Feed Fordward Neural Networks | Deep Feed Forward (DFF) |
 | 164 | Neural networks | Feed Fordward Neural Networks | Multilayer Perceptron (MLP) |
@@ -348,6 +414,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 177 | Neural networks | Feed Fordward Neural Networks | Inception Networks (GoogLeNet) |
 | 178 | Neural networks | Feed Fordward Neural Networks | Batch Size and Learning Rate Tuning |
 | 179 | Neural networks | Feed Fordward Neural Networks | Self-Organizing Maps (SOM) |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.11. Neural network Convolutional Neural Networks
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 180 | Neural networks | Convolutional Neural Networks | Transposed Convolutional Network |
 | 181 | Neural networks | Convolutional Neural Networks | Deep Convolutional Network (DCN) |
 | 182 | Neural networks | Convolutional Neural Networks | LeNet-5 |
@@ -370,6 +443,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 199 | Neural networks | Convolutional Neural Networks | PointNet |
 | 200 | Neural networks | Convolutional Neural Networks | DeepLab |
 | 201 | Neural networks | Convolutional Neural Networks | YOLO (You Only Look Once) |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.12. Neural network Generative Adversarial Networks
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 202 | Neural networks | Generative Adversarial Networks | Deep Convolutional GAN (DCGAN) |
 | 203 | Neural networks | Generative Adversarial Networks | Cycle GAN |
 | 204 | Neural networks | Generative Adversarial Networks | Wasserstein GAN (WGAN) |
@@ -391,6 +471,13 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 220 | Neural networks | Generative Adversarial Networks | VAE-GAN (Variational Autoencoder GAN) |
 | 221 | Neural networks | Generative Adversarial Networks | ALI (Adversarially Learned Inference) |
 | 222 | Neural networks | Generative Adversarial Networks | SN-GAN (Spectral Normalization GAN) |
+
+[Volta ao início](#aprendizado-de-maquina)
+
+### 1.3.13. Others Probabilistic Graphical Models
+
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 223 | Others | Probabilistic Graphical Models | Bayesian Belief Networks (BBN) |
 
 Fonte (adaptado de): https://towardsdatascience.com/lowess-regression-in-python-how-to-discover-clear-patterns-in-your-data-f26e523d7a35
@@ -443,7 +530,6 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 [Volta ao início](#aprendizado-de-maquina)
 
-
 ## 1.5. Algoritmos para reconhecimento de faces
 
 * ArcFace: Uma técnica de treinamento de rede neural que enfatiza a aprendizagem de representações discriminativas para faces.
@@ -487,6 +573,7 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ## 1.7. Algortimos usados na agricultura
 
+Em desenvolvimento.
 
 ---
 # 2. Aprendizado de máquina supervisionado
