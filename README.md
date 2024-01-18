@@ -274,7 +274,7 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ### 1.3.4. Semi supervised
 
-| Id | Categoria | Subcategoria  | Algoritmo |
+| Id | Categoria | Subcategoria/Algoritmo  | Algoritmo |
 | --- |--- | --- | --- |
 | 114 | Semi supervised | Label propagation | |
 | 115 | Semi supervised | Label spreading | |
