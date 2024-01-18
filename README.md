@@ -34,11 +34,11 @@ de programação, estatística e/ou pelo menos português estruturado.
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
   - [1.2.  O aprendizado de máquina esta dividido em grandes áreas](#12--o-aprendizado-de-máquina-esta-dividido-em-grandes-áreas)
   - [1.3. Exemplos de alguns algoritmos](#13-exemplos-de-alguns-algoritmos)
-  - [1.3.1. Supervised classification](#131-supervised-classification)
-  - [1.3.2. Supervised Regression](#132-supervised-regression)
+    - [1.3.1. Supervised classification](#131-supervised-classification)
+    - [1.3.2. Supervised Regression](#132-supervised-regression)
     - [1.3.3. Unsupervised Association](#133-unsupervised-association)
-  - [1.3.4. Unsupervised Clustering](#134-unsupervised-clustering)
-  - [1.3.5. Unsupervised Dimensionality Reduction](#135-unsupervised-dimensionality-reduction)
+    - [1.3.4. Unsupervised Clustering](#134-unsupervised-clustering)
+    - [1.3.5. Unsupervised Dimensionality Reduction](#135-unsupervised-dimensionality-reduction)
     - [1.3.6. Reinforcement Policy-based methods](#136-reinforcement-policy-based-methods)
     - [1.3.6. Reinforcement Value-based methods](#136-reinforcement-value-based-methods)
     - [1.3.7. Semi supervised](#137-semi-supervised)
@@ -161,7 +161,7 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ## 1.3. Exemplos de alguns algoritmos
 
-## 1.3.1. Supervised classification
+### 1.3.1. Supervised classification
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -184,7 +184,7 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 [Volta ao início](#aprendizado-de-maquina)
 
-## 1.3.2. Supervised Regression
+### 1.3.2. Supervised Regression
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -230,7 +230,7 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 [Volta ao início](#aprendizado-de-maquina)
 
-## 1.3.4. Unsupervised Clustering
+### 1.3.4. Unsupervised Clustering
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
@@ -253,7 +253,7 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 [Volta ao início](#aprendizado-de-maquina)
 
-## 1.3.5. Unsupervised Dimensionality Reduction
+### 1.3.5. Unsupervised Dimensionality Reduction
 
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
