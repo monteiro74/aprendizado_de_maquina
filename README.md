@@ -185,6 +185,8 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ### 1.3.2. Unsupervised
 
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 35 | Unsupervised | Association | Apriori | 
 | 36 | Unsupervised | Association | Algoritmo FARM (Mineração de Regras de Associação Flexíveis) |
 | 37 | Unsupervised | Association | Algoritmo Baseado em Borda (Border Min) |
@@ -236,7 +238,8 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ### 1.3.3. Reinforcement
 
-
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 83 | Reinforcement | Policy-based methods | Proximal Policy Optimization (PPO) |
 | 84 | Reinforcement | Policy-based methods | Deep Deterministic Policy Gradient (DDPG) |
 | 85 | Reinforcement | Policy-based methods | Policy Gradient (Reinforce) |
@@ -271,6 +274,8 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ### 1.3.4. Semi supervised
 
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 114 | Semi supervised | Label propagation | |
 | 115 | Semi supervised | Label spreading | |
 | 116 | Semi supervised | Self training classifier | |
@@ -291,6 +296,8 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ### 1.3.5. Neural network
 
+| Id | Categoria | Subcategoria  | Algoritmo |
+| --- |--- | --- | --- |
 | 130 | Neural networks | Auto encoders | Sparse Auto Encoder (SAE)  |
 | 131 | Neural networks | Auto encoders | Denoising Auto Encoder (DAE) |
 | 132 | Neural networks | Auto encoders | Variational auto Encoder (VAE)  |
