@@ -34,6 +34,11 @@ de programação, estatística e/ou pelo menos português estruturado.
     - [1.1.1. Organização e preparação de dados](#111-organização-e-preparação-de-dados)
   - [1.2.  O aprendizado de máquina esta dividido em grandes áreas](#12--o-aprendizado-de-máquina-esta-dividido-em-grandes-áreas)
   - [1.3. Exemplos de alguns algoritmos](#13-exemplos-de-alguns-algoritmos)
+  - [1.3.1. Supervised](#131-supervised)
+    - [1.3.2. Unsupervised](#132-unsupervised)
+    - [1.3.3. Reinforcement](#133-reinforcement)
+    - [1.3.4. Semi supervised](#134-semi-supervised)
+    - [1.3.5. Neural network](#135-neural-network)
   - [1.4. Reconhecimento de padrões em imagens](#14-reconhecimento-de-padrões-em-imagens)
   - [1.5. Algoritmos para reconhecimento de faces](#15-algoritmos-para-reconhecimento-de-faces)
   - [1.6. Algoritmos para reconhecimento de ruas](#16-algoritmos-para-reconhecimento-de-ruas)
@@ -63,6 +68,8 @@ de programação, estatística e/ou pelo menos português estruturado.
   - [Licença](#licença)
   - [Observação](#observação)
   - [Estatísticas](#estatísticas)
+
+
 
 
 ---
@@ -136,6 +143,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 
 ## 1.3. Exemplos de alguns algoritmos
 
+## 1.3.1. Supervised
+
+
 | Id | Categoria | Subcategoria  | Algoritmo |
 | --- |--- | --- | --- |
 | 1 | Supervised | Classification | Naive Bayes  |
@@ -172,6 +182,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 32 | Supervised | Regression | Regressão de Mínimos Quadrados Penalizados |
 | 33 | Supervised | Regression | Multivariate Adaptative Regression Splines (MARS) |
 | 34 | Supervised | Dimensionality Reduction | Linear Discriminant Analysis (LDA) |
+
+### 1.3.2. Unsupervised
+
 | 35 | Unsupervised | Association | Apriori | 
 | 36 | Unsupervised | Association | Algoritmo FARM (Mineração de Regras de Associação Flexíveis) |
 | 37 | Unsupervised | Association | Algoritmo Baseado em Borda (Border Min) |
@@ -220,6 +233,10 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 80 | Unsupervised | Dimensionality Reduction | Curse of Dimensionality Reduction (CoDReD) |
 | 81 | Unsupervised | Dimensionality Reduction | Principal Curves |
 | 82 | Unsupervised | Dimensionality Reduction | Linear Autoencoder |
+
+### 1.3.3. Reinforcement
+
+
 | 83 | Reinforcement | Policy-based methods | Proximal Policy Optimization (PPO) |
 | 84 | Reinforcement | Policy-based methods | Deep Deterministic Policy Gradient (DDPG) |
 | 85 | Reinforcement | Policy-based methods | Policy Gradient (Reinforce) |
@@ -251,6 +268,9 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 111 | Reinforcement | Value-based methods  | TRPO (Trust Region Policy Optimization) |
 | 112 | Reinforcement | Value-based methods  | PPO (Proximal Policy Optimization) |
 | 113 | Reinforcement | Value-based methods  | MADDPG (Multi-Agent Deep Deterministic Policy Gradients) |
+
+### 1.3.4. Semi supervised
+
 | 114 | Semi supervised | Label propagation | |
 | 115 | Semi supervised | Label spreading | |
 | 116 | Semi supervised | Self training classifier | |
@@ -267,6 +287,10 @@ Fonte: OpenAI. "GPT-3: Language Models for Few-Shot Learning." OpenAI, 2020. htt
 | 127 | Semi supervised | FixMatch ||
 | 128 | Semi supervised | Semi-Supervised SVM (S3VM) ||
 | 129 | Semi supervised | Deep Co-Training ||
+
+
+### 1.3.5. Neural network
+
 | 130 | Neural networks | Auto encoders | Sparse Auto Encoder (SAE)  |
 | 131 | Neural networks | Auto encoders | Denoising Auto Encoder (DAE) |
 | 132 | Neural networks | Auto encoders | Variational auto Encoder (VAE)  |
