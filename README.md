@@ -1,4 +1,4 @@
-# Aprendizado de maquina
+# Lista de algoritmos (aprendizado de maquina) [versão 2].
 
 Compilado de material sobre aprendizado de maquina.
 
@@ -27,7 +27,7 @@ de programação, estatística e/ou pelo menos português estruturado.
 ## Sumário
 
 
-- [Aprendizado de maquina](#aprendizado-de-maquina)
+- [Lista de algoritmos (aprendizado de maquina) \[versão 2\].](#lista-de-algoritmos-aprendizado-de-maquina-versão-2)
   - [Sumário](#sumário)
 - [1. Definições](#1-definições)
   - [1.1. Etapas de um projeto de aprendizado de máquina](#11-etapas-de-um-projeto-de-aprendizado-de-máquina)
